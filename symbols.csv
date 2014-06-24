@@ -1,15 +1,16 @@
-/!	BB	"Police, Sheriff"
-"/"""	BC
+CODE	DSTCALL	DESCRIPTION
+/!	BB	Police station
+"/"""	BC	
 /#	BD	Digipeater
 /$	BE	Telephone
 /%	BF	DX cluster
 /&	BG	HF gateway
 /'	BH	Small aircraft
 /(	BI	Mobile satellite station
-/)	BJ	"Wheelchair, handicapped"
+/)	BJ	Wheelchair, handicapped
 /*	BK	Snowmobile
 /+	BL	Red Cross
-"/,"	BM	Boy Scouts
+/,	BM	Boy Scouts
 /-	BN	House
 /.	BO	Red X
 //	BP	Red dot
@@ -24,41 +25,41 @@
 /8	P8	Numbered circle: 8
 /9	P9	Numbered circle: 9
 /:	MR	Fire
-/;	MS	"Campground, tent"
+/;	MS	Campground, tent
 /<	MT	Motorcycle
 /=	MU	Railroad engine
 />	MV	Car
 /?	MW	File server
 /@	MX	Hurricane predicted path
 /A	PA	Aid station
-/B	PB	BBS or PBBS
+/B	PB	BBS
 /C	PC	Canoe
-/D	PD
-/E	PE	"Eyeball, eye catcher"
-/F	PF	"Farm vehicle, tractor"
-/G	PG	"Grid square, 3 by 3"
+/D	PD	
+/E	PE	Eyeball
+/F	PF	Farm vehicle, tractor
+/G	PG	Grid square, 3 by 3
 /H	PH	Hotel
 /I	PI	TCP/IP network station
-/J	PJ
+/J	PJ	
 /K	PK	School
-/L	PL	User logged-on status
+/L	PL	PC user
 /M	PM	Mac apple
 /N	PN	NTS station
 /O	PO	Balloon
-/P	PP	Police
-/Q	PQ
-/R	PR	"RV, recreational vehicle"
+/P	PP	Police car
+/Q	PQ	
+/R	PR	Recreational vehicle
 /S	PS	Space Shuttle
 /T	PT	SSTV
 /U	PU	Bus
-/V	PV	"ATV, Amateur Television"
+/V	PV	ATV, Amateur Television
 /W	PW	Weather service site
 /X	PX	Helicopter
 /Y	PY	Sailboat
 /Z	PZ	Windows flag
 /[	HS	Human
 /\	HT	DF triangle
-/]	HU	Mailbox / post office
+/]	HU	Mailbox, post office
 /^	HV	Large aircraft
 /_	HW	Weather station
 /`	HX	Satellite dish antenna
@@ -66,77 +67,77 @@
 /b	LB	Bicycle
 /c	LC	Incident command post
 /d	LD	Fire station
-/e	LE	"Horse, equestrian"
+/e	LE	Horse, equestrian
 /f	LF	Fire truck
 /g	LG	Glider
 /h	LH	Hospital
-/i	LI	IOTA (islands on the air)
+/i	LI	IOTA, islands on the air
 /j	LJ	Jeep
 /k	LK	Truck
 /l	LL	Laptop
-/m	LM	Mic-E Repeater
-/n	LN	Node (black bulls-eye)
-/o	LO	Emergency Operations Center
+/m	LM	Mic-E repeater
+/n	LN	Node, black bulls-eye
+/o	LO	Emergency operations center
 /p	LP	Dog
-/q	LQ	Grid square (2 by 2)
+/q	LQ	Grid square, 2 by 2
 /r	LR	Repeater tower
-/s	LS	Ship / power boat
+/s	LS	Ship, power boat
 /t	LT	Truck stop
-/u	LU	Semi-trailer truck / 18-wheeler
+/u	LU	Semi-trailer truck, 18-wheeler
 /v	LV	Van
 /w	LW	Water station
 /x	LX	X / Unix
-/y	LY	House (yagi antenna)
+/y	LY	House, yagi antenna
 /z	LZ	Shelter
-/{	J1
-/}	J3
---------------------------------------------
+/{	J1	
+/}	J3	
+		
 \!	OB	Emergency
-"\"""	OC	reserved
-\#	OD#	Digipeater (green star)
+"\"""	OC	
+\#	OD	Digipeater, green star
 \$	OE	Bank or ATM
-\%	OFO
-\&	OG#	Black diamond / gateway with overlay
-\'	OHO	Crash / incident site
+\%	OF	
+\&	OG	Gateway station
+\'	OH	Crash / incident site
 \(	OI	Cloudy
-\)	OJO	Firenet MEO / MODIS Earth Observation
+\)	OJ	Firenet MEO, MODIS Earth Observation
 \*	OK	Snow
 \+	OL	Church
-"\,"	OM	Girl Scouts
-\-	ONO	House (HF antenna)
-\.	OO	Ambiguous (question mark inside circle)
+\,	OM	Girl Scouts
+\-	ON	House, HF antenna
+\.	OO	Ambiguous, question mark inside circle
 \/	OP	Waypoint destination
-\0	A0#	Circle (I/E = IRLP/Echolink)
-\1	A1
-\2	A2
-\3	A3
-\4	A4
-\5	A5
-\6	A6
-\7	A7
-\8	A8O	802.11 WLAN or other network node
-\9	A9	Gas station (blue pump)
+\0	A0	Circle, IRLP / Echolink/WIRES
+\1	A1	
+\2	A2	
+\3	A3	
+\4	A4	
+\5	A5	
+\6	A6	
+\7	A7	
+\8	A8	802.11 WiFi or other network node
+\9	A9	Gas station
 \:	NR	Hail
-\;	NS	Park / picnic area
-\<	NTO	Advisory (single red flag)
-\=	NU
-\>	NV#	Red car (with overlay)
-\?	NW	Info kiosk (blue box with question mark)
-\@	NX	Hurricane / Tropical storm
-\A	AA#	White box
+\;	NS	Park, picnic area
+\<	NT	Advisory, single red flag
+\=	NU	
+\>	NV	Red car
+\?	NW	Info kiosk
+\@	NX	Hurricane, Tropical storm
+\A	AA	White box
 \B	AB	Blowing snow
-\C	AC	Coast Guard / Orange circle
+\C	AC	Coast Guard
 \D	AD	Drizzling rain
-\E	AE	Smoke / Chimney
+\E	AE	Smoke, Chimney
 \F	AF	Freezing rain
 \G	AG	Snow shower
-\H	AHO	Haze
-\I	AI	Rain Shower
+\H	AH	Haze
+\I	AI	Rain shower
 \J	AJ	Lightning
-\K	AK	Kenwood HT (W)
+\K	AK	Kenwood HT
 \L	AL	Lighthouse
-\M	AMO
-\N	AN	Navigation Buoy
+\M	AM	
+\N	AN	Navigation buoy
 \O	AO	Rocket
 \P	AP	Parking
 \Q	AQ	Earthquake
@@ -144,192 +145,42 @@
 \S	AS	Satellite
 \T	AT	Thunderstorm
 \U	AU	Sunny
-\V	AV	VORTAC Navigational Aid
-\W	AW#	NWS site (NWS options)
+\V	AV	VORTAC, Navigational aid
+\W	AW	NWS site
 \X	AX	Pharmacy
-\Y	AY
-\Z	AZ
-\[	DSO	Wall Cloud
-\\	DT
-\]	DU
-\^	DV#	Aircraft
-\_	DW#	Weather site
+\Y	AY	
+\Z	AZ	
+\[	DS	Wall Cloud
+\\	DT	
+\]	DU	
+\^	DV	Aircraft
+\_	DW	Weather site
 \`	DX	Rain
-\a	SA#	Red diamond
-\b	SB	Blowing Dust/Sand
-\c	SC#	"CD. RACES, CERTS, SATERN"
+\a	SA	Red diamond
+\b	SB	Blowing dust, sand
+\c	SC	CD triangle, RACES, CERTS, SATERN
 \d	SD	DX spot
 \e	SE	Sleet
-\f	SF	Funnel Cloud
-\g	SG	Two red flags / Gale flags
-\h	SHO	Store / ham store
-\i	SI#	Black box / point of interest
-\j	SJ	Work zone (excavating machine)
-\k	SKO	SUV / ATV
-\l	SL
-\m	SM	Value Sign (3 digit display)
-\n	SN#	Red triangle
+\f	SF	Funnel cloud
+\g	SG	Gale, two red flags
+\h	SH	Store
+\i	SI	Black box, point of interest
+\j	SJ	Work zone, excavating machine
+\k	SK	SUV, ATV
+\l	SL	
+\m	SM	Value sign, 3 digit display
+\n	SN	Red triangle
 \o	SO	Small circle
 \p	SP	Partly cloudy
-\q	SQ
+\q	SQ	
 \r	SR	Restrooms
-\s	SS#	Ship / boat with overlay
+\s	SS	Ship, boat
 \t	ST	Tornado
-\u	SU#	Truck with overlay
-\v	SV#	Van with overlay
+\u	SU	Truck
+\v	SV	Van
 \w	SW	Flooding
-\x	SX
+\x	SX	
 \y	SY	Skywarn
-\z	SZ#	Shelter with overlay
+\z	SZ	Shelter
 \{	Q1	Fog
-\}	Q3
-----------------------------------------------
-#!	OB	EMERGENCY (!)
-"#"""	OC	reserved
-##	OD#	OVERLAY DIGI (green star)
-#$	OE	Bank or ATM  (green box)
-#%	OFO	Power Plant with overlay
-#&	OG#	"OVERLAY GATE I=2way, R=1way"
-#'	OHO	Crash site(now Incident sites)
-#(	OI	CLOUDY
-#)	OJO	"Firenet MEO, MODIS Earth Obs."
-#*	OK	SNOW
-#+	OL	Church
-"#,"	OM	Girl Scouts
-#-	ONO	House (H=HF) (O = Op Present)
-#.	OO	Ambiguous (Big Question mark)
-#/	OP	Waypoint Destination(D7/D700)
-#0	A0#	CIRCLE (E/I =IRLP/Echolink)
-#1	A1
-#2	A2
-#3	A3
-#4	A4
-#5	A5
-#6	A6
-#7	A7
-#8	A8O	802.11 or other network node
-#9	A9	Gas Station (blue pump)
-#:	NR	Hail
-#;	NS	Park/Picnic area
-#<	NTO	ADVISORY (one WX flag)
-#=	NU
-#>	NV#	OVERLAYED CAR
-#?	NW	INFO Kiosk  (Blue box with ?)
-#@	NX	HURICANE/Trop-Storm
-#A	AA#	OVERLAYED BOX  (XA=XO laptop)
-#B	AB	Blowing Snow
-#C	AC	Coast Guard
-#D	AD	Drizzle
-#E	AE	Smoke
-#F	AF	Freezing rain
-#G	AG	Snow Shower
-#H	AHO	\Haze or (Overlay Hazard)
-#I	AI	Rain Shower
-#J	AJ	Lightening
-#K	AK	Kenwood HT (W)
-#L	AL	Lighthouse
-#M	AMO	"MARS (A=Army,N=Navy,F=AF)"
-#N	AN	Navigation Buoy
-#O	AO	Rocket (new June 2004)
-#P	AP	Parking
-#Q	AQ	QUAKE
-#R	AR	Restaurant
-#S	AS	Satellite/Pacsat
-#T	AT	Thunderstorm
-#U	AU	SUNNY
-#V	AV	VORTAC Nav Aid
-#W	AW#	# NWS site (NWS options)
-#X	AX	Pharmacy Rx (Apothicary)
-#Y	AY	NEW OVERLAY Radios and devices
-#Z	AZ
-#[	DSO	Wall Cloud (S = skier)
-#\	DT
-#]	DU
-#^	DV#	# Aircraft (shows heading)
-#_	DW#	# WX site (green digi)
-#`	DX	Rain
-#a	SA#	"ARRL: ARES(A), WinLINK (W)"
-#b	SB	Blowing Dust/Sand
-#c	SC#	"CD. RACES, CERTS, SATERN"
-#d	SD	DX spot by callsign
-#e	SE	Sleet
-#f	SF	Funnel Cloud
-#g	SG	Gale Flags
-#h	SHO	Store. Hh=HAM store
-#i	SI#	BOX or points of Interest
-#j	SJ	WorkZone (Steam Shovel)
-#k	SKO	"SUV, A=ATV (new 29 June 2004)"
-#l	SL	"Areas      (box,circles,etc)"
-#m	SM	Value Sign (3 digit display)
-#n	SN#	OVERLAY TRIANGLE
-#o	SO	small circle
-#p	SP	Partly Cloudy
-#q	SQ
-#r	SR	Restrooms
-#s	SS#	OVERLAY SHIP/boat (top view)
-#t	ST	Tornado
-#u	SU#	OVERLAYED TRUCK
-#v	SV#	OVERLAYED Van
-#w	SW	Flooding
-#x	SX	Wreck or Obstruction ->X<-
-#y	SY	Skywarn
-#z	SZ#	OVERLAYED Shelter
-#{	Q1	Fog
-#|	Q2	TNC Stream Switch
-#}	Q3
-#~	Q4	TNC Stream Switch
---------------------------------------
-D$    OED   BANK/ATM Dollars
-L$    OEL   BANK/ATM Brittish Pound
-Y$    OEY   BANK/ATM Japanese Yen
-C%    OFC   Power Plant Coal
-G%    OFG   Power Plant Geothermal
-H%    OFH   Power Plant Hydroelectric
-N%    OFN   Power Plant Nuclear
-S%    OFS   Power Plant Solar
-T%    OFT   Power Plant Turbine
-W%    OFW   Power Plant Wind
-A'    OHA   INCIDENT Automobile crash site
-H'    OHH   INCIDENT Hazardous incident
-M'    OHM   INCIDENT Multi-Vehicle crash site
-P'    OHP   INCIDENT Pileup
-T'    OHT   INCIDENT Trunk wreck
-B-    ONB   HOUSE Backup power
-E-    ONE   HOUSE Emergency power
-G-    ONG   HOUSE Geothermal
-H-    ONH   HOUSE HF
-O-    ONO   HOUSE Operator Present
-S-    ONS   HOUSE Solar Powered
-W-    ONW   HOUSE Wind powered
-E0    A0E   CIRCLE Echolink Node (E0)
-I0    A0I   CIRCLE IRLP repeater (I0)
-S0    A0S   CIRCLE Staging Area  (S0)
-88    A88   NETWORK 802.11 network node (88)
-G8    A8G   NETWORK 802.11G  (G8)
-E>    NVE   CAR Electric
-H>    NVH   CAR Hybrid
-S>    NVS   CAR Solar
-WH    AHW   HAZARDS Waste
-7R    AR7   RESTAURANT 7/11
-KR    ARK   RESTAURANT Kentucky Fried Chicken
-MR    ARM   RESTAURANT McDonalds
-AY    AYA   RADIOS and DEVICES Yeasu
-IY    AYI   RADIOS and DEVICES Icom
-KY    AYK   RADIOS and DEVICES Kenwood
-S[    DSS   HUMANOID Skier
-R[    DSR   HUMANOID Runner
-H[    DSH   HUMANOID Hiker
-Aa    SAA   ARRL/DIAMOND ARES
-Da    SAD   Dutch AR Emergency Services
-Ga    SAG   RSGB Radio Society of Great Brittan
-Ra    SAR   RACES
-Sa    SAS   SATERN Salvation Army
-Wa    SAW   WinLink
-Rc    SCR   RACES
-Sc    SCA   SATERN mobile canteen
-Hh    SHH   STORE Home Depot
-Ak    SKA   ATV (all terrain vehicle)
-Gu    SUG   TRUCK Gas
-Hu    SUH   TRUCK Hazardous
-Tu    SUT   TRUCK Tanker
-Cu    SUC   TRUCK Chlorine tanker
+\}	Q3	
