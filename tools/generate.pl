@@ -102,6 +102,7 @@ foreach my $c (@rows) {
 	$xw->endTag("symbol");
 }
 $xw->endTag("symbols");
+$output->close();
 
 warn "   ... XML done.\n";
 
