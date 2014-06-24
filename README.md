@@ -16,17 +16,19 @@ Background information
 Bob Bruninga maintains an [APRS symbols index][symbolsx] on his web site. 
 Most of the updates done on that list have not been deployed to APRS
 applications, since it's hard to do that in a coordinated fashion, and it's
-quite a lot of work to apply the updates.  The published list is not usable
-in applications as-is, since the symbol descriptions contain a lot of
-additional text which is not understandable to users unless the whole
+quite a lot of work to apply the updates manually.  The published list is
+not usable in applications as-is, since the symbol descriptions contain a
+lot of additional text which is not understandable to users unless the whole
 document is viewed.  The updates do not have graphic design available.
 
 This list is designed to be something that can actually be used in an
 application, easily, without modification.
 
-This list is compatible with the currently deployed APRS symbol graphics.
+This list is compatible with the currently deployed APRS symbol graphics. 
 Symbol descriptions have been cleaned from additional text - only the symbol
-itself is described.
+itself is described.  Any additional metadata will be provided in separate
+columns and structured fields instead of free-form text within the
+descriptions.
 
 This index will be gradually updated with some new symbols later, when the
 symbol graphics themselves are updated.
