@@ -1,0 +1,924 @@
+{
+   "symbols" : [
+      {
+         "tocall" : "BB",
+         "description" : "Police station",
+         "code" : "/!"
+      },
+      {
+         "tocall" : "BC",
+         "unused" : 1,
+         "code" : "/\""
+      },
+      {
+         "tocall" : "BD",
+         "description" : "Digipeater",
+         "code" : "/#"
+      },
+      {
+         "tocall" : "BE",
+         "description" : "Telephone",
+         "code" : "/$"
+      },
+      {
+         "tocall" : "BF",
+         "description" : "DX cluster",
+         "code" : "/%"
+      },
+      {
+         "tocall" : "BG",
+         "description" : "HF gateway",
+         "code" : "/&"
+      },
+      {
+         "tocall" : "BH",
+         "description" : "Small aircraft",
+         "code" : "/'"
+      },
+      {
+         "tocall" : "BI",
+         "description" : "Mobile satellite station",
+         "code" : "/("
+      },
+      {
+         "tocall" : "BJ",
+         "description" : "Wheelchair, handicapped",
+         "code" : "/)"
+      },
+      {
+         "tocall" : "BK",
+         "description" : "Snowmobile",
+         "code" : "/*"
+      },
+      {
+         "tocall" : "BL",
+         "description" : "Red Cross",
+         "code" : "/+"
+      },
+      {
+         "tocall" : "BM",
+         "description" : "Boy Scouts",
+         "code" : "/,"
+      },
+      {
+         "tocall" : "BN",
+         "description" : "House",
+         "code" : "/-"
+      },
+      {
+         "tocall" : "BO",
+         "description" : "Red X",
+         "code" : "/."
+      },
+      {
+         "tocall" : "BP",
+         "description" : "Red dot",
+         "code" : "//"
+      },
+      {
+         "tocall" : "P0",
+         "description" : "Numbered circle: 0",
+         "code" : "/0"
+      },
+      {
+         "tocall" : "P1",
+         "description" : "Numbered circle: 1",
+         "code" : "/1"
+      },
+      {
+         "tocall" : "P2",
+         "description" : "Numbered circle: 2",
+         "code" : "/2"
+      },
+      {
+         "tocall" : "P3",
+         "description" : "Numbered circle: 3",
+         "code" : "/3"
+      },
+      {
+         "tocall" : "P4",
+         "description" : "Numbered circle: 4",
+         "code" : "/4"
+      },
+      {
+         "tocall" : "P5",
+         "description" : "Numbered circle: 5",
+         "code" : "/5"
+      },
+      {
+         "tocall" : "P6",
+         "description" : "Numbered circle: 6",
+         "code" : "/6"
+      },
+      {
+         "tocall" : "P7",
+         "description" : "Numbered circle: 7",
+         "code" : "/7"
+      },
+      {
+         "tocall" : "P8",
+         "description" : "Numbered circle: 8",
+         "code" : "/8"
+      },
+      {
+         "tocall" : "P9",
+         "description" : "Numbered circle: 9",
+         "code" : "/9"
+      },
+      {
+         "tocall" : "MR",
+         "description" : "Fire",
+         "code" : "/:"
+      },
+      {
+         "tocall" : "MS",
+         "description" : "Campground, tent",
+         "code" : "/;"
+      },
+      {
+         "tocall" : "MT",
+         "description" : "Motorcycle",
+         "code" : "/<"
+      },
+      {
+         "tocall" : "MU",
+         "description" : "Railroad engine",
+         "code" : "/="
+      },
+      {
+         "tocall" : "MV",
+         "description" : "Car",
+         "code" : "/>"
+      },
+      {
+         "tocall" : "MW",
+         "description" : "File server",
+         "code" : "/?"
+      },
+      {
+         "tocall" : "MX",
+         "description" : "Hurricane predicted path",
+         "code" : "/@"
+      },
+      {
+         "tocall" : "PA",
+         "description" : "Aid station",
+         "code" : "/A"
+      },
+      {
+         "tocall" : "PB",
+         "description" : "BBS",
+         "code" : "/B"
+      },
+      {
+         "tocall" : "PC",
+         "description" : "Canoe",
+         "code" : "/C"
+      },
+      {
+         "tocall" : "PD",
+         "unused" : 1,
+         "code" : "/D"
+      },
+      {
+         "tocall" : "PE",
+         "description" : "Eyeball",
+         "code" : "/E"
+      },
+      {
+         "tocall" : "PF",
+         "description" : "Farm vehicle, tractor",
+         "code" : "/F"
+      },
+      {
+         "tocall" : "PG",
+         "description" : "Grid square, 3 by 3",
+         "code" : "/G"
+      },
+      {
+         "tocall" : "PH",
+         "description" : "Hotel",
+         "code" : "/H"
+      },
+      {
+         "tocall" : "PI",
+         "description" : "TCP/IP network station",
+         "code" : "/I"
+      },
+      {
+         "tocall" : "PJ",
+         "unused" : 1,
+         "code" : "/J"
+      },
+      {
+         "tocall" : "PK",
+         "description" : "School",
+         "code" : "/K"
+      },
+      {
+         "tocall" : "PL",
+         "description" : "PC user",
+         "code" : "/L"
+      },
+      {
+         "tocall" : "PM",
+         "description" : "Mac apple",
+         "code" : "/M"
+      },
+      {
+         "tocall" : "PN",
+         "description" : "NTS station",
+         "code" : "/N"
+      },
+      {
+         "tocall" : "PO",
+         "description" : "Balloon",
+         "code" : "/O"
+      },
+      {
+         "tocall" : "PP",
+         "description" : "Police car",
+         "code" : "/P"
+      },
+      {
+         "tocall" : "PQ",
+         "unused" : 1,
+         "code" : "/Q"
+      },
+      {
+         "tocall" : "PR",
+         "description" : "Recreational vehicle",
+         "code" : "/R"
+      },
+      {
+         "tocall" : "PS",
+         "description" : "Space Shuttle",
+         "code" : "/S"
+      },
+      {
+         "tocall" : "PT",
+         "description" : "SSTV",
+         "code" : "/T"
+      },
+      {
+         "tocall" : "PU",
+         "description" : "Bus",
+         "code" : "/U"
+      },
+      {
+         "tocall" : "PV",
+         "description" : "ATV, Amateur Television",
+         "code" : "/V"
+      },
+      {
+         "tocall" : "PW",
+         "description" : "Weather service site",
+         "code" : "/W"
+      },
+      {
+         "tocall" : "PX",
+         "description" : "Helicopter",
+         "code" : "/X"
+      },
+      {
+         "tocall" : "PY",
+         "description" : "Sailboat",
+         "code" : "/Y"
+      },
+      {
+         "tocall" : "PZ",
+         "description" : "Windows flag",
+         "code" : "/Z"
+      },
+      {
+         "tocall" : "HS",
+         "description" : "Human",
+         "code" : "/["
+      },
+      {
+         "tocall" : "HT",
+         "description" : "DF triangle",
+         "code" : "/\\"
+      },
+      {
+         "tocall" : "HU",
+         "description" : "Mailbox, post office",
+         "code" : "/]"
+      },
+      {
+         "tocall" : "HV",
+         "description" : "Large aircraft",
+         "code" : "/^"
+      },
+      {
+         "tocall" : "HW",
+         "description" : "Weather station",
+         "code" : "/_"
+      },
+      {
+         "tocall" : "HX",
+         "description" : "Satellite dish antenna",
+         "code" : "/`"
+      },
+      {
+         "tocall" : "LA",
+         "description" : "Ambulance",
+         "code" : "/a"
+      },
+      {
+         "tocall" : "LB",
+         "description" : "Bicycle",
+         "code" : "/b"
+      },
+      {
+         "tocall" : "LC",
+         "description" : "Incident command post",
+         "code" : "/c"
+      },
+      {
+         "tocall" : "LD",
+         "description" : "Fire station",
+         "code" : "/d"
+      },
+      {
+         "tocall" : "LE",
+         "description" : "Horse, equestrian",
+         "code" : "/e"
+      },
+      {
+         "tocall" : "LF",
+         "description" : "Fire truck",
+         "code" : "/f"
+      },
+      {
+         "tocall" : "LG",
+         "description" : "Glider",
+         "code" : "/g"
+      },
+      {
+         "tocall" : "LH",
+         "description" : "Hospital",
+         "code" : "/h"
+      },
+      {
+         "tocall" : "LI",
+         "description" : "IOTA, islands on the air",
+         "code" : "/i"
+      },
+      {
+         "tocall" : "LJ",
+         "description" : "Jeep",
+         "code" : "/j"
+      },
+      {
+         "tocall" : "LK",
+         "description" : "Truck",
+         "code" : "/k"
+      },
+      {
+         "tocall" : "LL",
+         "description" : "Laptop",
+         "code" : "/l"
+      },
+      {
+         "tocall" : "LM",
+         "description" : "Mic-E repeater",
+         "code" : "/m"
+      },
+      {
+         "tocall" : "LN",
+         "description" : "Node, black bulls-eye",
+         "code" : "/n"
+      },
+      {
+         "tocall" : "LO",
+         "description" : "Emergency operations center",
+         "code" : "/o"
+      },
+      {
+         "tocall" : "LP",
+         "description" : "Dog",
+         "code" : "/p"
+      },
+      {
+         "tocall" : "LQ",
+         "description" : "Grid square, 2 by 2",
+         "code" : "/q"
+      },
+      {
+         "tocall" : "LR",
+         "description" : "Repeater tower",
+         "code" : "/r"
+      },
+      {
+         "tocall" : "LS",
+         "description" : "Ship, power boat",
+         "code" : "/s"
+      },
+      {
+         "tocall" : "LT",
+         "description" : "Truck stop",
+         "code" : "/t"
+      },
+      {
+         "tocall" : "LU",
+         "description" : "Semi-trailer truck, 18-wheeler",
+         "code" : "/u"
+      },
+      {
+         "tocall" : "LV",
+         "description" : "Van",
+         "code" : "/v"
+      },
+      {
+         "tocall" : "LW",
+         "description" : "Water station",
+         "code" : "/w"
+      },
+      {
+         "tocall" : "LX",
+         "description" : "X / Unix",
+         "code" : "/x"
+      },
+      {
+         "tocall" : "LY",
+         "description" : "House, yagi antenna",
+         "code" : "/y"
+      },
+      {
+         "tocall" : "LZ",
+         "description" : "Shelter",
+         "code" : "/z"
+      },
+      {
+         "tocall" : "J1",
+         "unused" : 1,
+         "code" : "/{"
+      },
+      {
+         "tocall" : "J3",
+         "unused" : 1,
+         "code" : "/}"
+      },
+      {
+         "tocall" : "OB",
+         "description" : "Emergency",
+         "code" : "\\!"
+      },
+      {
+         "tocall" : "OC",
+         "unused" : 1,
+         "code" : "\\\""
+      },
+      {
+         "tocall" : "OD",
+         "description" : "Digipeater, green star",
+         "code" : "\\#"
+      },
+      {
+         "tocall" : "OE",
+         "description" : "Bank or ATM",
+         "code" : "\\$"
+      },
+      {
+         "tocall" : "OF",
+         "unused" : 1,
+         "code" : "\\%"
+      },
+      {
+         "tocall" : "OG",
+         "description" : "Gateway station",
+         "code" : "\\&"
+      },
+      {
+         "tocall" : "OH",
+         "description" : "Crash / incident site",
+         "code" : "\\'"
+      },
+      {
+         "tocall" : "OI",
+         "description" : "Cloudy",
+         "code" : "\\("
+      },
+      {
+         "tocall" : "OJ",
+         "description" : "Firenet MEO, MODIS Earth Observation",
+         "code" : "\\)"
+      },
+      {
+         "tocall" : "OK",
+         "description" : "Snow",
+         "code" : "\\*"
+      },
+      {
+         "tocall" : "OL",
+         "description" : "Church",
+         "code" : "\\+"
+      },
+      {
+         "tocall" : "OM",
+         "description" : "Girl Scouts",
+         "code" : "\\,"
+      },
+      {
+         "tocall" : "ON",
+         "description" : "House, HF antenna",
+         "code" : "\\-"
+      },
+      {
+         "tocall" : "OO",
+         "description" : "Ambiguous, question mark inside circle",
+         "code" : "\\."
+      },
+      {
+         "tocall" : "OP",
+         "description" : "Waypoint destination",
+         "code" : "\\/"
+      },
+      {
+         "tocall" : "A0",
+         "description" : "Circle, IRLP / Echolink/WIRES",
+         "code" : "\\0"
+      },
+      {
+         "tocall" : "A1",
+         "unused" : 1,
+         "code" : "\\1"
+      },
+      {
+         "tocall" : "A2",
+         "unused" : 1,
+         "code" : "\\2"
+      },
+      {
+         "tocall" : "A3",
+         "unused" : 1,
+         "code" : "\\3"
+      },
+      {
+         "tocall" : "A4",
+         "unused" : 1,
+         "code" : "\\4"
+      },
+      {
+         "tocall" : "A5",
+         "unused" : 1,
+         "code" : "\\5"
+      },
+      {
+         "tocall" : "A6",
+         "unused" : 1,
+         "code" : "\\6"
+      },
+      {
+         "tocall" : "A7",
+         "unused" : 1,
+         "code" : "\\7"
+      },
+      {
+         "tocall" : "A8",
+         "description" : "802.11 WiFi or other network node",
+         "code" : "\\8"
+      },
+      {
+         "tocall" : "A9",
+         "description" : "Gas station",
+         "code" : "\\9"
+      },
+      {
+         "tocall" : "NR",
+         "description" : "Hail",
+         "code" : "\\:"
+      },
+      {
+         "tocall" : "NS",
+         "description" : "Park, picnic area",
+         "code" : "\\;"
+      },
+      {
+         "tocall" : "NT",
+         "description" : "Advisory, single red flag",
+         "code" : "\\<"
+      },
+      {
+         "tocall" : "NU",
+         "unused" : 1,
+         "code" : "\\="
+      },
+      {
+         "tocall" : "NV",
+         "description" : "Red car",
+         "code" : "\\>"
+      },
+      {
+         "tocall" : "NW",
+         "description" : "Info kiosk",
+         "code" : "\\?"
+      },
+      {
+         "tocall" : "NX",
+         "description" : "Hurricane, Tropical storm",
+         "code" : "\\@"
+      },
+      {
+         "tocall" : "AA",
+         "description" : "White box",
+         "code" : "\\A"
+      },
+      {
+         "tocall" : "AB",
+         "description" : "Blowing snow",
+         "code" : "\\B"
+      },
+      {
+         "tocall" : "AC",
+         "description" : "Coast Guard",
+         "code" : "\\C"
+      },
+      {
+         "tocall" : "AD",
+         "description" : "Drizzling rain",
+         "code" : "\\D"
+      },
+      {
+         "tocall" : "AE",
+         "description" : "Smoke, Chimney",
+         "code" : "\\E"
+      },
+      {
+         "tocall" : "AF",
+         "description" : "Freezing rain",
+         "code" : "\\F"
+      },
+      {
+         "tocall" : "AG",
+         "description" : "Snow shower",
+         "code" : "\\G"
+      },
+      {
+         "tocall" : "AH",
+         "description" : "Haze",
+         "code" : "\\H"
+      },
+      {
+         "tocall" : "AI",
+         "description" : "Rain shower",
+         "code" : "\\I"
+      },
+      {
+         "tocall" : "AJ",
+         "description" : "Lightning",
+         "code" : "\\J"
+      },
+      {
+         "tocall" : "AK",
+         "description" : "Kenwood HT",
+         "code" : "\\K"
+      },
+      {
+         "tocall" : "AL",
+         "description" : "Lighthouse",
+         "code" : "\\L"
+      },
+      {
+         "tocall" : "AM",
+         "unused" : 1,
+         "code" : "\\M"
+      },
+      {
+         "tocall" : "AN",
+         "description" : "Navigation buoy",
+         "code" : "\\N"
+      },
+      {
+         "tocall" : "AO",
+         "description" : "Rocket",
+         "code" : "\\O"
+      },
+      {
+         "tocall" : "AP",
+         "description" : "Parking",
+         "code" : "\\P"
+      },
+      {
+         "tocall" : "AQ",
+         "description" : "Earthquake",
+         "code" : "\\Q"
+      },
+      {
+         "tocall" : "AR",
+         "description" : "Restaurant",
+         "code" : "\\R"
+      },
+      {
+         "tocall" : "AS",
+         "description" : "Satellite",
+         "code" : "\\S"
+      },
+      {
+         "tocall" : "AT",
+         "description" : "Thunderstorm",
+         "code" : "\\T"
+      },
+      {
+         "tocall" : "AU",
+         "description" : "Sunny",
+         "code" : "\\U"
+      },
+      {
+         "tocall" : "AV",
+         "description" : "VORTAC, Navigational aid",
+         "code" : "\\V"
+      },
+      {
+         "tocall" : "AW",
+         "description" : "NWS site",
+         "code" : "\\W"
+      },
+      {
+         "tocall" : "AX",
+         "description" : "Pharmacy",
+         "code" : "\\X"
+      },
+      {
+         "tocall" : "AY",
+         "unused" : 1,
+         "code" : "\\Y"
+      },
+      {
+         "tocall" : "AZ",
+         "unused" : 1,
+         "code" : "\\Z"
+      },
+      {
+         "tocall" : "DS",
+         "description" : "Wall Cloud",
+         "code" : "\\["
+      },
+      {
+         "tocall" : "DT",
+         "unused" : 1,
+         "code" : "\\\\"
+      },
+      {
+         "tocall" : "DU",
+         "unused" : 1,
+         "code" : "\\]"
+      },
+      {
+         "tocall" : "DV",
+         "description" : "Aircraft",
+         "code" : "\\^"
+      },
+      {
+         "tocall" : "DW",
+         "description" : "Weather site",
+         "code" : "\\_"
+      },
+      {
+         "tocall" : "DX",
+         "description" : "Rain",
+         "code" : "\\`"
+      },
+      {
+         "tocall" : "SA",
+         "description" : "Red diamond",
+         "code" : "\\a"
+      },
+      {
+         "tocall" : "SB",
+         "description" : "Blowing dust, sand",
+         "code" : "\\b"
+      },
+      {
+         "tocall" : "SC",
+         "description" : "CD triangle, RACES, CERTS, SATERN",
+         "code" : "\\c"
+      },
+      {
+         "tocall" : "SD",
+         "description" : "DX spot",
+         "code" : "\\d"
+      },
+      {
+         "tocall" : "SE",
+         "description" : "Sleet",
+         "code" : "\\e"
+      },
+      {
+         "tocall" : "SF",
+         "description" : "Funnel cloud",
+         "code" : "\\f"
+      },
+      {
+         "tocall" : "SG",
+         "description" : "Gale, two red flags",
+         "code" : "\\g"
+      },
+      {
+         "tocall" : "SH",
+         "description" : "Store",
+         "code" : "\\h"
+      },
+      {
+         "tocall" : "SI",
+         "description" : "Black box, point of interest",
+         "code" : "\\i"
+      },
+      {
+         "tocall" : "SJ",
+         "description" : "Work zone, excavating machine",
+         "code" : "\\j"
+      },
+      {
+         "tocall" : "SK",
+         "description" : "SUV, ATV",
+         "code" : "\\k"
+      },
+      {
+         "tocall" : "SL",
+         "unused" : 1,
+         "code" : "\\l"
+      },
+      {
+         "tocall" : "SM",
+         "description" : "Value sign, 3 digit display",
+         "code" : "\\m"
+      },
+      {
+         "tocall" : "SN",
+         "description" : "Red triangle",
+         "code" : "\\n"
+      },
+      {
+         "tocall" : "SO",
+         "description" : "Small circle",
+         "code" : "\\o"
+      },
+      {
+         "tocall" : "SP",
+         "description" : "Partly cloudy",
+         "code" : "\\p"
+      },
+      {
+         "tocall" : "SQ",
+         "unused" : 1,
+         "code" : "\\q"
+      },
+      {
+         "tocall" : "SR",
+         "description" : "Restrooms",
+         "code" : "\\r"
+      },
+      {
+         "tocall" : "SS",
+         "description" : "Ship, boat",
+         "code" : "\\s"
+      },
+      {
+         "tocall" : "ST",
+         "description" : "Tornado",
+         "code" : "\\t"
+      },
+      {
+         "tocall" : "SU",
+         "description" : "Truck",
+         "code" : "\\u"
+      },
+      {
+         "tocall" : "SV",
+         "description" : "Van",
+         "code" : "\\v"
+      },
+      {
+         "tocall" : "SW",
+         "description" : "Flooding",
+         "code" : "\\w"
+      },
+      {
+         "tocall" : "SX",
+         "unused" : 1,
+         "code" : "\\x"
+      },
+      {
+         "tocall" : "SY",
+         "description" : "Skywarn",
+         "code" : "\\y"
+      },
+      {
+         "tocall" : "SZ",
+         "description" : "Shelter",
+         "code" : "\\z"
+      },
+      {
+         "tocall" : "Q1",
+         "description" : "Fog",
+         "code" : "\\{"
+      },
+      {
+         "tocall" : "Q3",
+         "unused" : 1,
+         "code" : "\\}"
+      }
+   ]
+}
