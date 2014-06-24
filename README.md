@@ -38,11 +38,11 @@ Licensing
 ------------
 
 This list is maintained by Hessu, OH7LZB, for the aprs.fi service.  It is
-licensed under the [CC BY-SA 2.0][ccbysa] license, so you're free to use it in any
+licensed under the [CC BY-SA 4.0][ccbysa] license, so you're free to use it in any
 of your applications.  For free.  Just mention the source somewhere in the
 small print.
 
 
 [symbolsx]: http://www.aprs.org/symbols/symbolsX.txt
-[ccbysa]: http://creativecommons.org/licenses/by-sa/2.0/
+[ccbysa]: http://creativecommons.org/licenses/by-sa/4.0/
 
