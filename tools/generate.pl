@@ -30,9 +30,11 @@ warn "Reading and parsing CSV from $src ...\n";
 my $csv = Text::CSV->new({
 	binary => 1,
 	sep_char => "\t",
-	}) or die "Cannot use CSV: " . Text::CSV->error_diag();
+}) or die "Cannot use CSV: " . Text::CSV->error_diag();
 
 my @rows;
+my %hash;
+my %tocalls;
 open my $fh, "<:encoding(utf8)", $src or die "Failed to open $src for reading: $!";
 my $line = 0;
 while (my $row = $csv->getline($fh)) {
@@ -61,6 +63,11 @@ while (my $row = $csv->getline($fh)) {
 		delete $h->{'description'};
 	}
 	
+	my %r = %{ $h };
+	delete $r{'code'};
+	$hash{$code} = \%r;
+	$tocalls{$tocall} = $code;
+	
 	push @rows, $h;
 }
 $csv->eof or $csv->error_diag();
@@ -72,7 +79,8 @@ close $fh;
 warn "Converting ...\n";
 
 my $json_tree = {
-	'symbols' => \@rows
+	'symbols' => \%hash,
+	'tocalls' => \%tocalls
 };
 
 print_out("$out_dir/symbols.dense.json", encode_json($json_tree));
