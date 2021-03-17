@@ -1,4 +1,138 @@
 ---
+
+# License: CC BY-SA 4.0
+
+#
+# English shown names and descriptions for classes of symbols
+#
+
+classes:
+  -
+    class: advisory
+    shown: Advisory
+    description: Warnings and advisories
+  -
+    class: aircraft
+    shown: Aircraft
+    description: Aircraft
+  -
+    class: currency
+    shown: Currency
+    description: Currency, ATMs
+  -
+    class: org
+    shown: Organisation
+    description: Clubs, organisations
+  -
+    class: balloon
+    shown: Balloon
+    description: Balloons, lighter than air
+  -
+    class: report
+    shown: Report
+    description: DTMF reports and other check-in gateways
+  -
+    class: building
+    shown: Building
+    description: Buildings
+  -
+    class: car
+    shown: Car
+    description: Cars
+  -
+    class: civildef
+    shown: Civil defence
+    description: Civil protection services
+  -
+    class: depot
+    shown: Depot
+    description: Ports, public transportation stations
+  -
+    class: digipeater
+    shown: Digipeater
+    description: APRS digipeaters
+  -
+    class: emergency
+    shown: Emergency
+    description: Emergencies
+  -
+    class: eyeball
+    shown: Eyeball
+    description: Events and visibility
+  -
+    class: gateway
+    shown: Gateway
+    description: APRS gateway stations
+  -
+    class: gps
+    shown: GPS
+    description: GPS devices
+  -
+    class: hazard
+    shown: Hazard
+    description: Hazards
+  -
+    class: human
+    shown: Human
+    description: People
+  -
+    class: house
+    shown: House
+    description: Houses
+  -
+    class: incident
+    shown: Incident
+    description: Incident sites
+  -
+    class: repeater
+    shown: Repeater
+    description: Repeaters, voice nodes and hotspots
+  -
+    class: node
+    shown: Node
+    description: Data network nodes
+  -
+    class: portable
+    shown: Portable
+    description: Portable operations
+  -
+    class: power
+    shown: Power
+    description: Power or energy
+  -
+    class: rail
+    shown: Rail
+    description: Rail
+  -
+    class: restaurant
+    shown: Restaurant
+    description: Restaurants
+  -
+    class: radio
+    shown: Radio
+    description: Radios and APRS devices
+  -
+    class: shelter
+    shown: Shelter
+    description: Shelters
+  -
+    class: vessel
+    shown: Vessel
+    description: Ships and other vessels
+  -
+    class: truck
+    shown: Truck
+    description: Trucks
+  -
+    class: water
+    shown: Water
+    description: Water
+
+#
+# Regular primary and secondary symbol table contents.
+# These will be modified very rarely, as the supply is low.
+#
+
 symbols:
   -
     code: '/!'
@@ -736,3 +870,45 @@ symbols:
     code: '\}'
     tocall: Q3
     unused: 1
+
+#
+# More specific definitions for overlays on the secondary symbol table.
+# These can be allocated more easily. Some APRS clients may even choose
+# to display customized graphics for these extended symbols.
+#
+
+overlays:
+  -
+    code: 'A^'
+    description: Autonomous aircraft
+  -
+    code: 'D^'
+    description: Drone
+  -
+    code: 'E^'
+    description: Electric aircraft
+  -
+    code: 'H^'
+    description: Hovercraft
+  -
+    code: 'J^'
+    description: Jet aircraft
+  -
+    code: 'M^'
+    description: Missile
+  -
+    code: 'P^'
+    description: Propeller aircraft
+  -
+    code: 'R^'
+    description: Remotely piloted aircraft
+  -
+    code: 'S^'
+    description: Solar powered aircraft
+  -
+    code: 'V^'
+    description: Vertical takeoff aircraft
+  -
+    code: 'X^'
+    description: Experimental aircraft
+
