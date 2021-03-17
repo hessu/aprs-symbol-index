@@ -60,6 +60,10 @@ classes:
     shown: Eyeball
     description: Events and visibility
   -
+    class: weather
+    shown: Weather
+    description: Significant weather
+  -
     class: gateway
     shown: Gateway
     description: APRS gateway stations
@@ -878,37 +882,762 @@ symbols:
 #
 
 overlays:
+# class: Aircraft: #^
   -
     code: 'A^'
     description: Autonomous aircraft
+    class: aircraft
   -
     code: 'D^'
     description: Drone
+    class: aircraft
   -
     code: 'E^'
     description: Electric aircraft
+    class: aircraft
   -
     code: 'H^'
     description: Hovercraft
+    class: aircraft
   -
     code: 'J^'
     description: Jet aircraft
+    class: aircraft
   -
     code: 'M^'
     description: Missile
+    class: aircraft
   -
     code: 'P^'
     description: Propeller aircraft
+    class: aircraft
   -
     code: 'R^'
     description: Remotely piloted aircraft
+    class: aircraft
   -
     code: 'S^'
     description: Solar powered aircraft
+    class: aircraft
   -
     code: 'V^'
     description: Vertical takeoff aircraft
+    class: aircraft
   -
     code: 'X^'
     description: Experimental aircraft
+    class: aircraft
 
+# class: currency: #$
+  -
+    code: '\\$'
+    description: Bank or ATM
+    class: currency
+  -
+    code: 'U$'
+    description: US dollar
+    class: currency
+  -
+    code: 'L$'
+    description: British Pound
+    class: currency
+  -
+    code: 'Y$'
+    description: Japanese Yen
+    class: currency
+
+# class: organisation: #a
+
+  -
+    code: Aa
+    description: ARES
+    class: org
+  -
+    code: Da
+    description: D-STAR
+    # has been ARES Dutch
+  -
+    code: Ga
+    description: RSGB Radio Society of Great Britain
+    class: org
+  -
+    code: Ra
+    description: RACES
+    class: org
+  -
+    code: Sa
+    description: SATERN Salvation Army
+    class: org
+  -
+    code: Wa
+    description: WinLink
+    class: org
+  -
+    code: Ya
+    description: C4FM Yaesu repeaters
+    class: repeater
+
+# class: balloons: #O
+
+  -
+    code: BO
+    description: Blimp
+    class: balloon
+  -
+    code: MO
+    description: Manned balloon
+    class: balloon
+  -
+    code: TO
+    description: Tethered balloon
+    class: balloon
+  -
+    code: CO
+    description: Constant pressure - Long duration balloon
+    class: balloon
+  -
+    code: RO
+    description: Rocket bearing Balloon (Rockoon)
+    class: balloon
+  -
+    code: WO
+    description: World-round balloon
+    class: balloon
+
+# class: reporting systems: #A
+  -
+    code: 9A
+    description: Mobile DTMF user
+    class: report
+  -
+    code: 7A
+    description: HT DTMF user
+    class: report
+  -
+    code: HA
+    description: House DTMF user
+    class: report
+  -
+    code: EA
+    description: Echolink DTMF report
+    class: report
+  -
+    code: IA
+    description: IRLP DTMF report
+    class: report
+  -
+    code: RA
+    description: RFID report
+    class: report
+  -
+    code: AA
+    description: AllStar DTMF report
+    class: report
+  -
+    code: DA
+    description: D-Star report
+    class: report
+  -
+    code: XA
+    description: OLPC Laptop XO
+    class: report
+
+# class: Buildings: #h
+  -
+    code: Ch
+    description: Ham radio club
+    class: building
+  -
+    code: Eh
+    description: Electronics store
+    class: building
+  -
+    code: Fh
+    description: Hamfest
+    class: building
+  -
+    code: Hh
+    description: Hardware Store
+    class: building
+
+# class: Cars: #>
+  -
+    code: 0>
+    description: Numbered car 0
+    class: car
+  -
+    code: 1>
+    description: Numbered car 1
+    class: car
+  -
+    code: 2>
+    description: Numbered car 2
+    class: car
+  -
+    code: 3>
+    description: Numbered car 3
+    class: car
+  -
+    code: 4>
+    description: Numbered car 4
+    class: car
+  -
+    code: 5>
+    description: Numbered car 5
+    class: car
+  -
+    code: 6>
+    description: Numbered car 6
+    class: car
+  -
+    code: 7>
+    description: Numbered car 7
+    class: car
+  -
+    code: 8>
+    description: Numbered car 8
+    class: car
+  -
+    code: 9>
+    description: Numbered car 9
+    class: car
+  -
+    code: B>
+    description: Battery electric car
+    class: car
+  -
+    code: E>
+    description: Ethanol car
+    class: car
+  -
+    code: F>
+    description: Fuel cell or hydrogen car
+    class: car
+  -
+    code: H>
+    description: Home-made car
+    class: car
+  -
+    code: P>
+    description: Plugin hybrid car
+    class: car
+  -
+    code: S>
+    description: Solar powered car
+    class: car
+
+# class: civildef: #c
+  -
+    code: Dc
+    description: Decontamination
+    class: civildef
+  -
+    code: Rc
+    description: RACES
+    class: civildef
+  -
+    code: Sc
+    description: SATERN mobile canteen
+    class: civildef
+
+# class: depot: #D
+  -
+    code: AD
+    description: Airport
+    class: depot
+  -
+    code: FD
+    description: Ferry Landing
+    class: depot
+  -
+    code: HD
+    description: Heliport
+    class: depot
+  -
+    code: RD
+    description: Rail depot
+    class: depot
+  -
+    code: BD
+    description: Bus depot
+    class: depot
+  -
+    code: LD
+    description: Light rail or Subway
+    class: depot
+  -
+    code: SD
+    description: Seaport depot
+    class: depot
+
+# class: digipeater
+  -
+    code: '1#'
+    description: WIDE1-1 digipeater
+    class: digipeater
+  -
+    code: 'A#'
+    description: Alternate input frequency digipeater
+    class: digipeater
+  -
+    code: 'E#'
+    description: Emergency powered digipeater
+    class: digipeater
+  -
+    code: 'I#'
+    description: I-gate equipped digipeater
+    class: digipeater
+  -
+    code: 'L#'
+    description: WIDEn-N digipeater with path length trapping
+    class: digipeater
+  -
+    code: 'P#'
+    description: PacComm
+    class: digipeater
+  -
+    code: 'S#'
+    description: SSn-N digipeater (includes WIDEn-N)
+    class: digipeater
+  -
+    code: 'X#'
+    description: Experimental digipeater
+    class: digipeater
+  -
+    code: 'V#'
+    description: Viscous digipeater
+    class: digipeater
+  -
+    code: 'W#'
+    description: Digipeater with WIDEn-N, SSn-N and Trapping
+    class: digipeater
+
+# class: emergency: #!
+  -
+    code: '/!'
+    description: Police/Sheriff, etc
+    class: emergency
+  -
+    code: '\\!'
+    description: Emergency
+    class: emergency
+  -
+    code: 'E!'
+    description: ELT or EPIRB
+    class: emergency
+  -
+    code: 'V!'
+    description: Volcanic eruption or lava
+    class: emergency
+
+# class: EYEBALL (EVENT) and VISIBILITY  #E
+  -
+    code: HE
+    description: Haze
+    class: weather
+  -
+    code: SE
+    description: Smoke
+    class: weather
+  -
+    code: BE
+    description: Blowing Snow
+    class: weather
+    # was \B
+  -
+    code: DE
+    description: Blowing dust or sand
+    class: weather
+    # was \b
+  -
+    code: FE
+    description: (F overlay) Fog
+    class: weather
+    # was \{
+
+# GATEWAYS: #&
+  -
+    code: 'R&'
+    description: Receive only igate
+  -
+    code: 'P&'
+    description: PSKmail node
+  -
+    code: 'T&'
+    description: Transmit-capable igate
+  -
+    code: 'W&'
+    description: WIRES-X
+    # as opposed to W0 for WiresII
+  -
+    code: '2&'
+    description: TX igate with path set to 2 hops
+    # (not generally good idea)
+
+# GPS devices: #\
+  -
+    code: A\
+    description: Avmap G5
+
+# HAZARDS: #H
+  -
+    code: MH
+    description: Methane Hazard (new Apr 2017)
+  -
+    code: RH
+    description: Radiation detector (new mar 2011)
+  -
+    code: WH
+    description: Hazardous Waste
+  -
+    code: XH
+    description: Skull&Crossbones
+
+# HUMAN SYMBOL: #[
+  -
+    code: /[
+    description: Human
+  -
+    code: \[
+    description: Wall Cloud (the original definition)
+  -
+    code: B[
+    description: Baby on board (stroller, pram etc)
+  -
+    code: S[
+    description: Skier      * <= Recommend Special Symbol
+  -
+    code: R[
+    description: Runner
+  -
+    code: H[
+    description: Hiker
+
+# HOUSE: #-
+  -
+    code: 5-
+    description: 50 Hz if non standard
+  -
+    code: 6-
+    description: 60 Hz if non standard
+  -
+    code: B-
+    description: Battery or off grid
+  -
+    code: C-
+    description: Combined alternatives
+  -
+    code: E-
+    description: Emergency power (grid down)
+  -
+    code: G-
+    description: Geothermal
+  -
+    code: H-
+    description: Hydro powered
+  -
+    code: O-
+    description: Operator Present
+  -
+    code: S-
+    description: Solar Power
+  -
+    code: W-
+    description: Wind power
+
+# INCIDENT SITES: #'
+  -
+    code: "A'"
+    description: Automobile crash site
+  -
+    code: "H'"
+    description: Hazardous incident
+  -
+    code: "M'"
+    description: Multi-Vehicle crash site
+  -
+    code: "P'"
+    description: Pileup
+  -
+    code: "T'"
+    description: Truck wreck
+
+# NUMBERED CIRCLES: #0
+  -
+    code: A0
+    description: Allstar Node (A0)
+  -
+    code: E0
+    description: Echolink Node (E0)
+  -
+    code: I0
+    description: IRLP repeater (I0)
+  -
+    code: S0
+    description: Staging Area  (S0)
+  -
+    code: V0
+    description: Echolink and IRLP (VOIP)
+  -
+    code: W0
+    description: WIRES (Yaesu VOIP)
+
+# NETWORK NODES: #8
+  -
+    code: 88
+    description: 802.11 network node (88)
+  -
+    code: G8
+    description: 802.11G  (G8)
+
+# PORTABLE SYMBOL: #;
+  -
+    code: F;
+    description: Field Day
+  -
+    code: I;
+    description: Islands on the air
+  -
+    code: S;
+    description: Summits on the air
+  -
+    code: W;
+    description: WOTA
+
+# POWER or ENERGY: #%  
+  -
+    code: 'C%'
+    description: Coal
+  -
+    code: 'E%'
+    description: Emergency
+  -
+    code: 'G%'
+    description: Geothermal
+  -
+    code: 'H%'
+    description: Hydroelectric
+  -
+    code: 'N%'
+    description: Nuclear
+  -
+    code: 'P%'
+    description: Portable
+  -
+    code: 'R%'
+    description: Renewable (hydrogen etc fuels)
+  -
+    code: 'S%'
+    description: Solar
+  -
+    code: 'T%'
+    description: Turbine
+  -
+    code: 'W%'
+    description: Wind
+
+# RAIL Symbols: #=
+  -
+    code: B=
+    description: Bus-rail/trolley/streetcar/guiderail
+  -
+    code: C=
+    description: Commuter
+  -
+    code: D=
+    description: Diesel
+  -
+    code: E=
+    description: Electric
+  -
+    code: F=
+    description: Freight
+  -
+    code: G=
+    description: Gondola
+  -
+    code: H=
+    description: High Speed Rail
+  -
+    code: I=
+    description: Inclined Rail
+  -
+    code: L=
+    description: eLevated
+  -
+    code: M=
+    description: Monorail
+  -
+    code: P=
+    description: Passenger
+  -
+    code: S=
+    description: Steam
+  -
+    code: T=
+    description: Terminal (station)
+  -
+    code: U=
+    description: Subway
+  -
+    code: X=
+    description: eXcursion
+
+
+# RESTAURANTS: #R 
+  -
+    code: 7R
+    description: 7/11
+  -
+    code: KR
+    description: KFC
+  -
+    code: MR
+    description: McDonalds
+  -
+    code: TR
+    description: Taco Bell
+
+# RADIOS and APRS DEVICES: #Y
+  -
+    code: AY
+    description: Alinco
+  -
+    code: BY
+    description: Byonics
+  -
+    code: IY
+    description: Icom
+  -
+    code: KY
+    description: Kenwood
+  -
+    code: YY
+    description: Yaesu
+
+# SPECIAL VEHICLES: #k
+  -
+    code: 4k
+    description: 4x4
+  -
+    code: Ak
+    description: ATV (all terrain vehicle)
+
+# SHELTERS: #z
+  -
+    code: Cz
+    description: Clinic
+  -
+    code: Ez
+    description: Emergency Power
+  -
+    code: Gz
+    description: Government building
+  -
+    code: Mz
+    description: Morgue
+  -
+    code: Tz
+    description: Triage
+
+# SHIPS: #s 
+  -
+    code: 6s
+    description: Shipwreck
+  -
+    code: Bs
+    description: Pleasure Boat
+  -
+    code: Cs
+    description: Cargo
+  -
+    code: Ds
+    description: Diving
+  -
+    code: Es
+    description: Emergency or Medical transport
+  -
+    code: Fs
+    description: Fishing
+  -
+    code: Hs
+    description: High-speed Craft 
+  -
+    code: Js
+    description: Jet Ski
+  -
+    code: Ls
+    description: Law enforcement
+  -
+    code: Ms
+    description: Miltary
+  -
+    code: Os
+    description: Oil Rig
+  -
+    code: Ps
+    description: Pilot Boat
+  -
+    code: Qs
+    description: Torpedo
+  -
+    code: Ss
+    description: Search and Rescue
+  -
+    code: Ts
+    description: Tug
+  -
+    code: Us
+    description: Underwater ops or submarine
+  -
+    code: Ws
+    description: Wing-in-Ground effect (or Hovercraft)
+  -
+    code: Xs
+    description: Passenger ferry
+  -
+    code: Ys
+    description: Sailing (large ship)
+
+# TRUCKS: #u
+  -
+    code: Bu
+    description: Bulldozer/construction/Backhoe
+  -
+    code: Gu
+    description: Gas truck
+  -
+    code: Pu
+    description: Plow or SnowPlow
+  -
+    code: Tu
+    description: Tanker truck
+  -
+    code: Cu
+    description: Chlorine Tanker
+  -
+    code: Hu
+    description: Hazardous material truck
+
+# class: WATER #w
+  -
+    code: Aw
+    description: Avalanche
+  -
+    code: Gw
+    description: Green Flood Gauge
+  -
+    code: Mw
+    description: Mud slide
+  -
+    code: Nw
+    description: Normal flood gauge (blue)
+  -
+    code: Rw
+    description: Red flood gauge
+  -
+    code: Sw
+    description: Snow Blockage
+  -
+    code: Yw
+    description: Yellow flood gauge
