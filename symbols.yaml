@@ -1259,385 +1259,494 @@ overlays:
   -
     code: 'R&'
     description: Receive only igate
+    class: gateway
   -
     code: 'P&'
     description: PSKmail node
+    class: gateway
   -
     code: 'T&'
     description: Transmit-capable igate
+    class: gateway
   -
     code: 'W&'
     description: WIRES-X
+    class: gateway
     # as opposed to W0 for WiresII
   -
     code: '2&'
     description: TX igate with path set to 2 hops
+    class: gateway
     # (not generally good idea)
 
-# GPS devices: #\
+# class: GPS devices: #\
   -
     code: A\
     description: Avmap G5
+    class: gps
 
 # HAZARDS: #H
   -
     code: MH
-    description: Methane Hazard (new Apr 2017)
+    description: Methane hazard
+    class: hazard
   -
     code: RH
-    description: Radiation detector (new mar 2011)
+    description: Radiation detector
+    class: hazard
   -
     code: WH
-    description: Hazardous Waste
+    description: Hazardous waste
+    class: hazard
   -
     code: XH
-    description: Skull&Crossbones
+    description: "Skull & Crossbones"
+    class: hazard
 
-# HUMAN SYMBOL: #[
-  -
-    code: /[
-    description: Human
-  -
-    code: \[
-    description: Wall Cloud (the original definition)
+# Class: Human, people: #[
   -
     code: B[
     description: Baby on board (stroller, pram etc)
+    class: human
   -
     code: S[
-    description: Skier      * <= Recommend Special Symbol
+    description: Skier
+    class: human
   -
     code: R[
     description: Runner
+    class: human
   -
     code: H[
     description: Hiker
+    class: human
 
-# HOUSE: #-
+# Houses with various power sources
   -
     code: 5-
-    description: 50 Hz if non standard
+    description: 50 Hz AC power
+    class: house
+    # if non standard
   -
     code: 6-
-    description: 60 Hz if non standard
+    description: 60 Hz AC power
+    class: house
+    # if non standard
   -
     code: B-
     description: Battery or off grid
+    class: house
   -
     code: C-
     description: Combined alternatives
+    class: house
   -
     code: E-
     description: Emergency power (grid down)
+    class: house
   -
     code: G-
     description: Geothermal
+    class: house
   -
     code: H-
     description: Hydro powered
+    class: house
   -
     code: O-
     description: Operator Present
+    class: house
   -
     code: S-
     description: Solar Power
+    class: house
   -
     code: W-
     description: Wind power
+    class: house
 
-# INCIDENT SITES: #'
+# class: Incident sites: #'
   -
     code: "A'"
     description: Automobile crash site
+    class: incident
   -
     code: "H'"
     description: Hazardous incident
+    class: incident
   -
     code: "M'"
     description: Multi-Vehicle crash site
+    class: incident
   -
     code: "P'"
     description: Pileup
+    class: incident
   -
     code: "T'"
     description: Truck wreck
+    class: incident
 
 # NUMBERED CIRCLES: #0
   -
     code: A0
-    description: Allstar Node (A0)
+    description: Allstar Node
+    class: repeater
   -
     code: E0
-    description: Echolink Node (E0)
+    description: Echolink Node
+    class: repeater
   -
     code: I0
-    description: IRLP repeater (I0)
+    description: IRLP repeater
+    class: repeater
   -
     code: S0
-    description: Staging Area  (S0)
+    description: Staging Area
+    class: civildef
   -
     code: V0
-    description: Echolink and IRLP (VOIP)
+    description: Echolink and IRLP
+    class: repeater
   -
     code: W0
     description: WIRES (Yaesu VOIP)
+    class: repeater
 
 # NETWORK NODES: #8
   -
     code: 88
-    description: 802.11 network node (88)
+    description: 802.11 network node
+    class: node
   -
     code: G8
-    description: 802.11G  (G8)
+    description: 802.11G
+    class: node
 
 # PORTABLE SYMBOL: #;
   -
     code: F;
     description: Field Day
+    class: portable
   -
     code: I;
     description: Islands on the air
+    class: portable
   -
     code: S;
     description: Summits on the air
+    class: portable
   -
     code: W;
     description: WOTA
+    class: portable
 
 # POWER or ENERGY: #%  
   -
     code: 'C%'
     description: Coal
+    class: power
   -
     code: 'E%'
     description: Emergency
+    class: power
   -
     code: 'G%'
     description: Geothermal
+    class: power
   -
     code: 'H%'
     description: Hydroelectric
+    class: power
   -
     code: 'N%'
     description: Nuclear
+    class: power
   -
     code: 'P%'
     description: Portable
+    class: power
   -
     code: 'R%'
-    description: Renewable (hydrogen etc fuels)
+    description: Renewable (hydrogen, etc)
+    class: power
   -
     code: 'S%'
     description: Solar
+    class: power
   -
     code: 'T%'
     description: Turbine
+    class: power
   -
     code: 'W%'
     description: Wind
+    class: power
 
 # RAIL Symbols: #=
   -
     code: B=
     description: Bus-rail/trolley/streetcar/guiderail
+    class: rail
   -
     code: C=
     description: Commuter
+    class: rail
   -
     code: D=
     description: Diesel
+    class: rail
   -
     code: E=
     description: Electric
+    class: rail
   -
     code: F=
     description: Freight
+    class: rail
   -
     code: G=
     description: Gondola
+    class: rail
   -
     code: H=
     description: High Speed Rail
+    class: rail
   -
     code: I=
-    description: Inclined Rail
+    description: Inclined rail
+    class: rail
   -
     code: L=
-    description: eLevated
+    description: Elevated rail
+    class: rail
   -
     code: M=
     description: Monorail
+    class: rail
   -
     code: P=
     description: Passenger
+    class: rail
   -
     code: S=
-    description: Steam
+    description: Steam rail
+    class: rail
   -
     code: T=
     description: Terminal (station)
+    class: rail
   -
     code: U=
     description: Subway
+    class: rail
   -
     code: X=
-    description: eXcursion
+    description: Excursion train
+    class: rail
 
 
 # RESTAURANTS: #R 
   -
     code: 7R
     description: 7/11
+    class: restaurant
   -
     code: KR
     description: KFC
+    class: restaurant
   -
     code: MR
     description: McDonalds
+    class: restaurant
   -
     code: TR
     description: Taco Bell
+    class: restaurant
 
 # RADIOS and APRS DEVICES: #Y
   -
     code: AY
     description: Alinco
+    class: radio
   -
     code: BY
     description: Byonics
+    class: radio
   -
     code: IY
     description: Icom
+    class: radio
   -
     code: KY
     description: Kenwood
+    class: radio
   -
     code: YY
     description: Yaesu
+    class: radio
 
 # SPECIAL VEHICLES: #k
   -
     code: 4k
     description: 4x4
+    class: car
   -
     code: Ak
     description: ATV (all terrain vehicle)
+    class: car
 
 # SHELTERS: #z
   -
     code: Cz
     description: Clinic
+    class: shelter
   -
     code: Ez
     description: Emergency Power
+    class: shelter
   -
     code: Gz
     description: Government building
+    class: shelter
   -
     code: Mz
     description: Morgue
+    class: shelter
   -
     code: Tz
     description: Triage
+    class: shelter
 
 # SHIPS: #s 
   -
     code: 6s
     description: Shipwreck
+    class: vessel
   -
     code: Bs
-    description: Pleasure Boat
+    description: Pleasure boat
+    class: vessel
   -
     code: Cs
-    description: Cargo
+    description: Cargo ship
+    class: vessel
   -
     code: Ds
-    description: Diving
+    description: Diving boat
+    class: vessel
   -
     code: Es
-    description: Emergency or Medical transport
+    description: Emergency or Medical transport vessel
+    class: vessel
   -
     code: Fs
-    description: Fishing
+    description: Fishing boat
   -
     code: Hs
     description: High-speed Craft 
+    class: vessel
   -
     code: Js
     description: Jet Ski
+    class: vessel
   -
     code: Ls
-    description: Law enforcement
+    description: Law enforcement vessel
+    class: vessel
   -
     code: Ms
-    description: Miltary
+    description: Military vessel
+    class: vessel
   -
     code: Os
-    description: Oil Rig
+    description: Oil rig
+    class: vessel
   -
     code: Ps
-    description: Pilot Boat
+    description: Pilot boat
+    class: vessel
   -
     code: Qs
-    description: Torpedo
+    description: Torpedo boat
+    class: vessel
   -
     code: Ss
-    description: Search and Rescue
+    description: Search and Rescue boat
+    class: vessel
   -
     code: Ts
     description: Tug
+    class: vessel
   -
     code: Us
     description: Underwater ops or submarine
+    class: vessel
   -
     code: Ws
     description: Wing-in-Ground effect (or Hovercraft)
+    class: vessel
   -
     code: Xs
     description: Passenger ferry
+    class: vessel
   -
     code: Ys
     description: Sailing (large ship)
+    class: vessel
 
 # TRUCKS: #u
   -
     code: Bu
     description: Bulldozer/construction/Backhoe
+    class: truck
   -
     code: Gu
     description: Gas truck
+    class: truck
   -
     code: Pu
     description: Plow or SnowPlow
+    class: truck
   -
     code: Tu
     description: Tanker truck
+    class: truck
   -
     code: Cu
     description: Chlorine Tanker
+    class: truck
   -
     code: Hu
     description: Hazardous material truck
+    class: truck
 
 # class: WATER #w
   -
     code: Aw
     description: Avalanche
+    class: water
   -
     code: Gw
     description: Green Flood Gauge
+    class: water
   -
     code: Mw
     description: Mud slide
+    class: water
   -
     code: Nw
     description: Normal flood gauge (blue)
+    class: water
   -
     code: Rw
     description: Red flood gauge
+    class: water
   -
     code: Sw
     description: Snow Blockage
+    class: water
   -
     code: Yw
     description: Yellow flood gauge
+    class: water

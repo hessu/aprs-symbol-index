@@ -1,1436 +1,1635 @@
 {
-   "overlays" : {
-      "BD" : {
-         "description" : "Bus depot",
-         "class" : "depot"
-      },
-      "5>" : {
-         "class" : "car",
-         "description" : "Numbered car 5"
-      },
-      "E0" : {
-         "description" : "Echolink Node (E0)"
-      },
-      "9A" : {
-         "description" : "Mobile DTMF user",
-         "class" : "report"
-      },
-      "L$" : {
-         "description" : "British Pound",
-         "class" : "currency"
-      },
-      "7R" : {
-         "description" : "7/11"
-      },
-      "B=" : {
-         "description" : "Bus-rail/trolley/streetcar/guiderail"
-      },
-      "W;" : {
-         "description" : "WOTA"
-      },
-      "Sw" : {
-         "description" : "Snow Blockage"
-      },
-      "O-" : {
-         "description" : "Operator Present"
-      },
-      "LD" : {
-         "description" : "Light rail or Subway",
-         "class" : "depot"
-      },
-      "E#" : {
-         "description" : "Emergency powered digipeater",
-         "class" : "digipeater"
-      },
-      "Bs" : {
-         "description" : "Pleasure Boat"
-      },
-      "Ls" : {
-         "description" : "Law enforcement"
-      },
-      "E>" : {
-         "description" : "Ethanol car",
-         "class" : "car"
-      },
-      "P=" : {
-         "description" : "Passenger"
-      },
-      "L#" : {
-         "description" : "WIDEn-N digipeater with path length trapping",
-         "class" : "digipeater"
-      },
-      "M=" : {
-         "description" : "Monorail"
-      },
-      "Bu" : {
-         "description" : "Bulldozer/construction/Backhoe"
-      },
-      "R%" : {
-         "description" : "Renewable (hydrogen etc fuels)"
-      },
-      "I0" : {
-         "description" : "IRLP repeater (I0)"
-      },
-      "1#" : {
-         "class" : "digipeater",
-         "description" : "WIDE1-1 digipeater"
-      },
-      "AD" : {
-         "class" : "depot",
-         "description" : "Airport"
-      },
-      "Ch" : {
-         "class" : "building",
-         "description" : "Ham radio club"
-      },
-      "Nw" : {
-         "description" : "Normal flood gauge (blue)"
-      },
-      "Da" : {
-         "description" : "D-STAR"
-      },
-      "Pu" : {
-         "description" : "Plow or SnowPlow"
-      },
-      "9>" : {
-         "class" : "car",
-         "description" : "Numbered car 9"
-      },
-      "DA" : {
-         "class" : "report",
-         "description" : "D-Star report"
-      },
-      "E!" : {
-         "class" : "emergency",
-         "description" : "ELT or EPIRB"
-      },
-      "A'" : {
-         "description" : "Automobile crash site"
-      },
-      "Es" : {
-         "description" : "Emergency or Medical transport"
-      },
-      "Ss" : {
-         "description" : "Search and Rescue"
-      },
-      "KR" : {
-         "description" : "KFC"
-      },
-      "T'" : {
-         "description" : "Truck wreck"
-      },
-      "Cz" : {
-         "description" : "Clinic"
-      },
-      "C=" : {
-         "description" : "Commuter"
-      },
-      "XA" : {
-         "description" : "OLPC Laptop XO",
-         "class" : "report"
-      },
-      "C-" : {
-         "description" : "Combined alternatives"
-      },
-      "Gz" : {
-         "description" : "Government building"
-      },
-      "E-" : {
-         "description" : "Emergency power (grid down)"
-      },
-      "X=" : {
-         "description" : "eXcursion"
-      },
-      "M'" : {
-         "description" : "Multi-Vehicle crash site"
-      },
-      "\\\\$" : {
-         "description" : "Bank or ATM",
-         "class" : "currency"
-      },
-      "Aw" : {
-         "description" : "Avalanche"
-      },
-      "Eh" : {
-         "class" : "building",
-         "description" : "Electronics store"
-      },
-      "Us" : {
-         "description" : "Underwater ops or submarine"
-      },
-      "U$" : {
-         "class" : "currency",
-         "description" : "US dollar"
-      },
-      "S^" : {
-         "description" : "Solar powered aircraft",
-         "class" : "aircraft"
-      },
-      "P^" : {
-         "class" : "aircraft",
-         "description" : "Propeller aircraft"
-      },
-      "AY" : {
-         "description" : "Alinco"
-      },
-      "Fs" : {
-         "description" : "Fishing"
-      },
-      "MH" : {
-         "description" : "Methane Hazard (new Apr 2017)"
-      },
-      "KY" : {
-         "description" : "Kenwood"
-      },
-      "HA" : {
-         "description" : "House DTMF user",
-         "class" : "report"
-      },
-      "M^" : {
-         "description" : "Missile",
-         "class" : "aircraft"
-      },
-      "S;" : {
-         "description" : "Summits on the air"
-      },
-      "Cu" : {
-         "description" : "Chlorine Tanker"
-      },
-      "Gw" : {
-         "description" : "Green Flood Gauge"
-      },
-      "W-" : {
-         "description" : "Wind power"
-      },
-      "S#" : {
-         "description" : "SSn-N digipeater (includes WIDEn-N)",
-         "class" : "digipeater"
-      },
-      "B-" : {
-         "description" : "Battery or off grid"
-      },
-      "Rw" : {
-         "description" : "Red flood gauge"
-      },
-      "H>" : {
-         "class" : "car",
-         "description" : "Home-made car"
-      },
-      "Ya" : {
-         "description" : "C4FM Yaesu repeaters",
-         "class" : "repeater"
-      },
-      "BO" : {
-         "description" : "Blimp",
-         "class" : "balloon"
-      },
-      "MR" : {
-         "description" : "McDonalds"
-      },
-      "Ez" : {
-         "description" : "Emergency Power"
-      },
-      "Hh" : {
-         "description" : "Hardware Store",
-         "class" : "building"
-      },
-      "XH" : {
-         "description" : "Skull&Crossbones"
-      },
-      "Gu" : {
-         "description" : "Gas truck"
-      },
-      "/!" : {
-         "class" : "emergency",
-         "description" : "Police/Sheriff, etc"
-      },
-      "P>" : {
-         "description" : "Plugin hybrid car",
-         "class" : "car"
-      },
-      "Wa" : {
-         "description" : "WinLink",
-         "class" : "org"
-      },
-      "G%" : {
-         "description" : "Geothermal"
-      },
-      "7A" : {
-         "description" : "HT DTMF user",
-         "class" : "report"
-      },
-      "R^" : {
-         "class" : "aircraft",
-         "description" : "Remotely piloted aircraft"
-      },
-      "Hs" : {
-         "description" : "High-speed Craft"
-      },
-      "EA" : {
-         "description" : "Echolink DTMF report",
-         "class" : "report"
-      },
-      "Aa" : {
-         "description" : "ARES",
-         "class" : "org"
-      },
-      "YY" : {
-         "description" : "Yaesu"
-      },
-      "RO" : {
-         "class" : "balloon",
-         "description" : "Rocket bearing Balloon (Rockoon)"
-      },
-      "4k" : {
-         "description" : "4x4"
-      },
-      "N%" : {
-         "description" : "Nuclear"
-      },
-      "FE" : {
-         "class" : "weather",
-         "description" : "(F overlay) Fog"
-      },
-      "CO" : {
-         "class" : "balloon",
-         "description" : "Constant pressure - Long duration balloon"
-      },
-      "Mw" : {
-         "description" : "Mud slide"
-      },
-      "WH" : {
-         "description" : "Hazardous Waste"
-      },
-      "IA" : {
-         "class" : "report",
-         "description" : "IRLP DTMF report"
-      },
-      "Tz" : {
-         "description" : "Triage"
-      },
-      "T&" : {
-         "description" : "Transmit-capable igate"
-      },
-      "W%" : {
-         "description" : "Wind"
-      },
-      "RH" : {
-         "description" : "Radiation detector (new mar 2011)"
-      },
-      "S0" : {
-         "description" : "Staging Area  (S0)"
-      },
-      "E%" : {
-         "description" : "Emergency"
-      },
-      "6>" : {
-         "description" : "Numbered car 6",
-         "class" : "car"
-      },
-      "V#" : {
-         "description" : "Viscous digipeater",
-         "class" : "digipeater"
-      },
-      "E^" : {
-         "class" : "aircraft",
-         "description" : "Electric aircraft"
-      },
-      "\\\\!" : {
-         "description" : "Emergency",
-         "class" : "emergency"
-      },
-      "Os" : {
-         "description" : "Oil Rig"
-      },
-      "H=" : {
-         "description" : "High Speed Rail"
-      },
-      "S[" : {
-         "description" : "Skier      * <= Recommend Special Symbol"
-      },
-      "Ga" : {
-         "description" : "RSGB Radio Society of Great Britain",
-         "class" : "org"
-      },
-      "H^" : {
-         "class" : "aircraft",
-         "description" : "Hovercraft"
-      },
-      "L=" : {
-         "description" : "eLevated"
-      },
-      "X^" : {
-         "class" : "aircraft",
-         "description" : "Experimental aircraft"
-      },
-      "Sc" : {
-         "class" : "civildef",
-         "description" : "SATERN mobile canteen"
-      },
-      "Ps" : {
-         "description" : "Pilot Boat"
-      },
-      "Ak" : {
-         "description" : "ATV (all terrain vehicle)"
-      },
-      "V0" : {
-         "description" : "Echolink and IRLP (VOIP)"
-      },
-      "HD" : {
-         "class" : "depot",
-         "description" : "Heliport"
-      },
-      "BE" : {
-         "description" : "Blowing Snow",
-         "class" : "weather"
-      },
-      "HE" : {
-         "class" : "weather",
-         "description" : "Haze"
-      },
-      "T%" : {
-         "description" : "Turbine"
-      },
-      "3>" : {
-         "description" : "Numbered car 3",
-         "class" : "car"
-      },
-      "MO" : {
-         "description" : "Manned balloon",
-         "class" : "balloon"
-      },
-      "V!" : {
-         "class" : "emergency",
-         "description" : "Volcanic eruption or lava"
-      },
-      "Cs" : {
-         "description" : "Cargo"
-      },
-      "S-" : {
-         "description" : "Solar Power"
-      },
-      "G8" : {
-         "description" : "802.11G  (G8)"
-      },
-      "J^" : {
-         "description" : "Jet aircraft",
-         "class" : "aircraft"
-      },
-      "U=" : {
-         "description" : "Subway"
-      },
-      "X#" : {
-         "class" : "digipeater",
-         "description" : "Experimental digipeater"
-      },
-      "6s" : {
-         "description" : "Shipwreck"
-      },
-      "H-" : {
-         "description" : "Hydro powered"
-      },
-      "Y$" : {
-         "class" : "currency",
-         "description" : "Japanese Yen"
-      },
-      "Fh" : {
-         "description" : "Hamfest",
-         "class" : "building"
-      },
-      "A^" : {
-         "class" : "aircraft",
-         "description" : "Autonomous aircraft"
-      },
-      "H[" : {
-         "description" : "Hiker"
-      },
-      "G-" : {
-         "description" : "Geothermal"
-      },
-      "W&" : {
-         "description" : "WIRES-X"
-      },
-      "7>" : {
-         "description" : "Numbered car 7",
-         "class" : "car"
-      },
-      "Ys" : {
-         "description" : "Sailing (large ship)"
-      },
-      "W#" : {
-         "description" : "Digipeater with WIDEn-N, SSn-N and Trapping",
-         "class" : "digipeater"
-      },
-      "BY" : {
-         "description" : "Byonics"
-      },
-      "P#" : {
-         "description" : "PacComm",
-         "class" : "digipeater"
-      },
-      "A\\" : {
-         "description" : "Avmap G5"
-      },
-      "Ms" : {
-         "description" : "Miltary"
-      },
-      "FD" : {
-         "class" : "depot",
-         "description" : "Ferry Landing"
-      },
-      "5-" : {
-         "description" : "50 Hz if non standard"
-      },
-      "P'" : {
-         "description" : "Pileup"
-      },
-      "I=" : {
-         "description" : "Inclined Rail"
-      },
-      "Dc" : {
-         "description" : "Decontamination",
-         "class" : "civildef"
-      },
-      "F;" : {
-         "description" : "Field Day"
-      },
-      "Ds" : {
-         "description" : "Diving"
-      },
-      "Ws" : {
-         "description" : "Wing-in-Ground effect (or Hovercraft)"
-      },
-      "\\[" : {
-         "description" : "Wall Cloud (the original definition)"
-      },
-      "Yw" : {
-         "description" : "Yellow flood gauge"
-      },
-      "H%" : {
-         "description" : "Hydroelectric"
-      },
-      "88" : {
-         "description" : "802.11 network node (88)"
-      },
-      "AA" : {
-         "description" : "AllStar DTMF report",
-         "class" : "report"
-      },
-      "B[" : {
-         "description" : "Baby on board (stroller, pram etc)"
-      },
-      "P%" : {
-         "description" : "Portable"
-      },
-      "Sa" : {
-         "class" : "org",
-         "description" : "SATERN Salvation Army"
-      },
-      "SD" : {
-         "class" : "depot",
-         "description" : "Seaport depot"
-      },
-      "P&" : {
-         "description" : "PSKmail node"
-      },
-      "DE" : {
-         "description" : "Blowing dust or sand",
-         "class" : "weather"
-      },
-      "D^" : {
-         "description" : "Drone",
-         "class" : "aircraft"
-      },
-      "/[" : {
-         "description" : "Human"
-      },
-      "S>" : {
-         "class" : "car",
-         "description" : "Solar powered car"
-      },
-      "2&" : {
-         "description" : "TX igate with path set to 2 hops"
-      },
-      "C%" : {
-         "description" : "Coal"
-      },
-      "TO" : {
-         "class" : "balloon",
-         "description" : "Tethered balloon"
-      },
-      "G=" : {
-         "description" : "Gondola"
-      },
-      "W0" : {
-         "description" : "WIRES (Yaesu VOIP)"
-      },
-      "Ra" : {
-         "description" : "RACES",
-         "class" : "org"
-      },
-      "B>" : {
-         "class" : "car",
-         "description" : "Battery electric car"
-      },
-      "Xs" : {
-         "description" : "Passenger ferry"
-      },
-      "6-" : {
-         "description" : "60 Hz if non standard"
-      },
-      "V^" : {
-         "description" : "Vertical takeoff aircraft",
-         "class" : "aircraft"
-      },
-      "Js" : {
-         "description" : "Jet Ski"
-      },
-      "RA" : {
-         "class" : "report",
-         "description" : "RFID report"
-      },
-      "1>" : {
-         "class" : "car",
-         "description" : "Numbered car 1"
-      },
-      "Mz" : {
-         "description" : "Morgue"
-      },
-      "RD" : {
-         "description" : "Rail depot",
-         "class" : "depot"
-      },
-      "S%" : {
-         "description" : "Solar"
-      },
-      "4>" : {
-         "description" : "Numbered car 4",
-         "class" : "car"
-      },
-      "0>" : {
-         "description" : "Numbered car 0",
-         "class" : "car"
-      },
-      "WO" : {
-         "description" : "World-round balloon",
-         "class" : "balloon"
-      },
-      "Tu" : {
-         "description" : "Tanker truck"
-      },
-      "TR" : {
-         "description" : "Taco Bell"
-      },
-      "T=" : {
-         "description" : "Terminal (station)"
-      },
-      "A#" : {
-         "description" : "Alternate input frequency digipeater",
-         "class" : "digipeater"
-      },
-      "SE" : {
-         "description" : "Smoke",
-         "class" : "weather"
-      },
-      "I#" : {
-         "class" : "digipeater",
-         "description" : "I-gate equipped digipeater"
-      },
-      "E=" : {
-         "description" : "Electric"
-      },
-      "F>" : {
-         "description" : "Fuel cell or hydrogen car",
-         "class" : "car"
-      },
-      "R&" : {
-         "description" : "Receive only igate"
-      },
-      "I;" : {
-         "description" : "Islands on the air"
-      },
-      "H'" : {
-         "description" : "Hazardous incident"
-      },
-      "Rc" : {
-         "description" : "RACES",
-         "class" : "civildef"
-      },
-      "R[" : {
-         "description" : "Runner"
-      },
-      "Ts" : {
-         "description" : "Tug"
-      },
-      "D=" : {
-         "description" : "Diesel"
-      },
-      "F=" : {
-         "description" : "Freight"
-      },
-      "IY" : {
-         "description" : "Icom"
-      },
-      "8>" : {
-         "description" : "Numbered car 8",
-         "class" : "car"
-      },
-      "Qs" : {
-         "description" : "Torpedo"
-      },
-      "S=" : {
-         "description" : "Steam"
-      },
-      "2>" : {
-         "class" : "car",
-         "description" : "Numbered car 2"
-      },
-      "A0" : {
-         "description" : "Allstar Node (A0)"
-      },
-      "Hu" : {
-         "description" : "Hazardous material truck"
-      }
-   },
    "symbols" : {
-      "/:" : {
-         "tocall" : "MR",
-         "description" : "Fire"
-      },
-      "/@" : {
-         "tocall" : "MX",
-         "description" : "Hurricane predicted path"
-      },
-      "\\$" : {
-         "tocall" : "OE",
-         "description" : "Bank or ATM"
-      },
-      "\\s" : {
-         "description" : "Ship, boat",
-         "tocall" : "SS"
-      },
-      "/e" : {
-         "tocall" : "LE",
-         "description" : "Horse, equestrian"
-      },
-      "/[" : {
-         "description" : "Human",
-         "tocall" : "HS"
-      },
-      "/F" : {
-         "description" : "Farm vehicle, tractor",
-         "tocall" : "PF"
-      },
-      "\\9" : {
-         "tocall" : "A9",
-         "description" : "Gas station"
-      },
-      "\\*" : {
-         "tocall" : "OK",
-         "description" : "Snow"
-      },
-      "/0" : {
-         "tocall" : "P0",
-         "description" : "Numbered circle: 0"
-      },
-      "\\)" : {
-         "description" : "Firenet MEO, MODIS Earth Observation",
-         "tocall" : "OJ"
-      },
-      "/*" : {
-         "tocall" : "BK",
-         "description" : "Snowmobile"
-      },
-      "\\_" : {
-         "tocall" : "DW",
-         "description" : "Weather site"
-      },
-      "\\[" : {
-         "description" : "Wall Cloud",
-         "tocall" : "DS"
-      },
-      "\\{" : {
-         "description" : "Fog",
-         "tocall" : "Q1"
-      },
-      "/," : {
-         "tocall" : "BM",
-         "description" : "Boy Scouts"
-      },
-      "\\-" : {
-         "description" : "House, HF antenna",
-         "tocall" : "ON"
-      },
-      "\\A" : {
-         "tocall" : "AA",
-         "description" : "White box"
-      },
-      "/#" : {
-         "description" : "Digipeater",
-         "tocall" : "BD"
-      },
-      "\\o" : {
-         "tocall" : "SO",
-         "description" : "Small circle"
-      },
-      "/i" : {
-         "description" : "IOTA, islands on the air",
-         "tocall" : "LI"
-      },
-      "\\F" : {
-         "tocall" : "AF",
-         "description" : "Freezing rain"
-      },
-      "\\C" : {
-         "description" : "Coast Guard",
-         "tocall" : "AC"
-      },
-      "/5" : {
-         "description" : "Numbered circle: 5",
-         "tocall" : "P5"
-      },
-      "/P" : {
-         "description" : "Police car",
-         "tocall" : "PP"
-      },
-      "\\'" : {
-         "description" : "Crash / incident site",
-         "tocall" : "OH"
-      },
-      "\\b" : {
-         "tocall" : "SB",
-         "description" : "Blowing dust, sand"
-      },
-      "/T" : {
-         "tocall" : "PT",
-         "description" : "SSTV"
-      },
-      "\\!" : {
-         "description" : "Emergency",
-         "tocall" : "OB"
-      },
-      "\\#" : {
-         "description" : "Digipeater, green star",
-         "tocall" : "OD"
-      },
-      "\\J" : {
-         "tocall" : "AJ",
-         "description" : "Lightning"
-      },
-      "/o" : {
-         "description" : "Emergency operations center",
-         "tocall" : "LO"
-      },
-      "\\t" : {
-         "description" : "Tornado",
-         "tocall" : "ST"
-      },
-      "/A" : {
-         "tocall" : "PA",
-         "description" : "Aid station"
-      },
-      "/3" : {
-         "tocall" : "P3",
-         "description" : "Numbered circle: 3"
-      },
-      "\\d" : {
-         "description" : "DX spot",
-         "tocall" : "SD"
-      },
-      "/r" : {
-         "description" : "Repeater tower",
-         "tocall" : "LR"
-      },
-      "/v" : {
-         "description" : "Van",
-         "tocall" : "LV"
-      },
-      "\\3" : {
-         "unused" : "1",
-         "tocall" : "A3"
-      },
-      "/G" : {
-         "description" : "Grid square, 3 by 3",
-         "tocall" : "PG"
-      },
-      "\\2" : {
-         "unused" : "1",
-         "tocall" : "A2"
-      },
-      "/W" : {
-         "tocall" : "PW",
-         "description" : "Weather service site"
-      },
-      "\\k" : {
-         "description" : "SUV, ATV",
-         "tocall" : "SK"
-      },
-      "\\e" : {
-         "tocall" : "SE",
-         "description" : "Sleet"
-      },
-      "/." : {
-         "description" : "Red X",
-         "tocall" : "BO"
-      },
-      "\\m" : {
-         "description" : "Value sign, 3 digit display",
-         "tocall" : "SM"
-      },
-      "/g" : {
-         "description" : "Glider",
-         "tocall" : "LG"
-      },
-      "/_" : {
-         "description" : "Weather station",
-         "tocall" : "HW"
-      },
-      "/K" : {
-         "description" : "School",
-         "tocall" : "PK"
-      },
-      "\\S" : {
-         "tocall" : "AS",
-         "description" : "Satellite"
-      },
-      "\\\\" : {
-         "unused" : "1",
-         "tocall" : "DT"
-      },
-      "\\Q" : {
-         "tocall" : "AQ",
-         "description" : "Earthquake"
-      },
-      "/=" : {
-         "tocall" : "MU",
-         "description" : "Railroad engine"
-      },
-      "/w" : {
-         "tocall" : "LW",
-         "description" : "Water station"
-      },
-      "/C" : {
-         "description" : "Canoe",
-         "tocall" : "PC"
-      },
-      "/;" : {
-         "description" : "Campground, tent",
-         "tocall" : "MS"
-      },
-      "/y" : {
-         "description" : "House, yagi antenna",
-         "tocall" : "LY"
-      },
-      "/E" : {
-         "tocall" : "PE",
-         "description" : "Eyeball"
-      },
-      "/a" : {
-         "tocall" : "LA",
-         "description" : "Ambulance"
-      },
-      "\\," : {
-         "description" : "Girl Scouts",
-         "tocall" : "OM"
-      },
-      "\\G" : {
-         "tocall" : "AG",
-         "description" : "Snow shower"
-      },
-      "\\;" : {
-         "description" : "Park, picnic area",
-         "tocall" : "NS"
-      },
-      "\\7" : {
-         "unused" : "1",
-         "tocall" : "A7"
-      },
-      "/H" : {
-         "tocall" : "PH",
-         "description" : "Hotel"
-      },
-      "/f" : {
-         "description" : "Fire truck",
-         "tocall" : "LF"
-      },
-      "\\y" : {
-         "tocall" : "SY",
-         "description" : "Skywarn"
-      },
-      "/x" : {
-         "tocall" : "LX",
-         "description" : "X / Unix"
-      },
-      "\\D" : {
-         "tocall" : "AD",
-         "description" : "Drizzling rain"
-      },
-      "\\w" : {
-         "tocall" : "SW",
-         "description" : "Flooding"
-      },
-      "\\W" : {
-         "description" : "NWS site",
-         "tocall" : "AW"
-      },
-      "/q" : {
-         "description" : "Grid square, 2 by 2",
-         "tocall" : "LQ"
-      },
-      "/\\" : {
-         "tocall" : "HT",
-         "description" : "DF triangle"
-      },
-      "\\q" : {
-         "tocall" : "SQ",
-         "unused" : "1"
-      },
       "\\x" : {
          "unused" : "1",
          "tocall" : "SX"
-      },
-      "\\z" : {
-         "tocall" : "SZ",
-         "description" : "Shelter"
-      },
-      "/d" : {
-         "description" : "Fire station",
-         "tocall" : "LD"
-      },
-      "\\g" : {
-         "tocall" : "SG",
-         "description" : "Gale, two red flags"
-      },
-      "/n" : {
-         "description" : "Node, black bulls-eye",
-         "tocall" : "LN"
-      },
-      "\\]" : {
-         "unused" : "1",
-         "tocall" : "DU"
-      },
-      "/9" : {
-         "description" : "Numbered circle: 9",
-         "tocall" : "P9"
-      },
-      "/p" : {
-         "tocall" : "LP",
-         "description" : "Dog"
-      },
-      "/j" : {
-         "description" : "Jeep",
-         "tocall" : "LJ"
-      },
-      "\\U" : {
-         "description" : "Sunny",
-         "tocall" : "AU"
-      },
-      "/?" : {
-         "tocall" : "MW",
-         "description" : "File server"
-      },
-      "/+" : {
-         "description" : "Red Cross",
-         "tocall" : "BL"
-      },
-      "\\V" : {
-         "tocall" : "AV",
-         "description" : "VORTAC, Navigational aid"
-      },
-      "\\(" : {
-         "tocall" : "OI",
-         "description" : "Cloudy"
-      },
-      "\\r" : {
-         "tocall" : "SR",
-         "description" : "Restrooms"
-      },
-      "\\E" : {
-         "description" : "Smoke, Chimney",
-         "tocall" : "AE"
-      },
-      "/R" : {
-         "tocall" : "PR",
-         "description" : "Recreational vehicle"
-      },
-      "\\/" : {
-         "tocall" : "OP",
-         "description" : "Waypoint destination"
-      },
-      "/Q" : {
-         "tocall" : "PQ",
-         "unused" : "1"
-      },
-      "\\u" : {
-         "description" : "Truck",
-         "tocall" : "SU"
-      },
-      "\\8" : {
-         "description" : "802.11 WiFi or other network node",
-         "tocall" : "A8"
-      },
-      "\\R" : {
-         "description" : "Restaurant",
-         "tocall" : "AR"
-      },
-      "\\p" : {
-         "description" : "Partly cloudy",
-         "tocall" : "SP"
       },
       "\\h" : {
          "description" : "Store",
          "tocall" : "SH"
       },
-      "\\K" : {
-         "description" : "Kenwood HT",
-         "tocall" : "AK"
-      },
-      "/l" : {
-         "description" : "Laptop",
-         "tocall" : "LL"
-      },
-      "/B" : {
-         "tocall" : "PB",
-         "description" : "BBS"
-      },
-      "\\5" : {
-         "unused" : "1",
-         "tocall" : "A5"
-      },
-      "/<" : {
-         "description" : "Motorcycle",
-         "tocall" : "MT"
-      },
-      "\\j" : {
-         "description" : "Work zone, excavating machine",
-         "tocall" : "SJ"
-      },
-      "/>" : {
-         "tocall" : "MV",
-         "description" : "Car"
-      },
-      "/&" : {
-         "tocall" : "BG",
-         "description" : "HF gateway"
-      },
-      "\\I" : {
-         "tocall" : "AI",
-         "description" : "Rain shower"
-      },
-      "\\6" : {
-         "unused" : "1",
-         "tocall" : "A6"
-      },
-      "\\&" : {
-         "description" : "Gateway station",
-         "tocall" : "OG"
-      },
-      "/2" : {
-         "description" : "Numbered circle: 2",
-         "tocall" : "P2"
-      },
-      "\\Y" : {
-         "unused" : "1",
-         "tocall" : "AY"
-      },
-      "/V" : {
-         "description" : "ATV, Amateur Television",
-         "tocall" : "PV"
-      },
-      "/4" : {
-         "tocall" : "P4",
-         "description" : "Numbered circle: 4"
-      },
-      "\\H" : {
-         "tocall" : "AH",
-         "description" : "Haze"
-      },
-      "/c" : {
-         "description" : "Incident command post",
-         "tocall" : "LC"
-      },
-      "/M" : {
-         "description" : "Mac apple",
-         "tocall" : "PM"
-      },
-      "/}" : {
-         "tocall" : "J3",
-         "unused" : "1"
-      },
-      "/)" : {
-         "description" : "Wheelchair, handicapped",
-         "tocall" : "BJ"
-      },
-      "/z" : {
-         "tocall" : "LZ",
-         "description" : "Shelter"
-      },
-      "\\." : {
-         "description" : "Ambiguous, question mark inside circle",
-         "tocall" : "OO"
-      },
-      "\\}" : {
-         "unused" : "1",
-         "tocall" : "Q3"
+      "/Y" : {
+         "tocall" : "PY",
+         "description" : "Sailboat"
       },
       "\\Z" : {
-         "tocall" : "AZ",
+         "unused" : "1",
+         "tocall" : "AZ"
+      },
+      "/\"" : {
+         "tocall" : "BC",
          "unused" : "1"
       },
-      "/(" : {
-         "tocall" : "BI",
-         "description" : "Mobile satellite station"
-      },
-      "/m" : {
-         "tocall" : "LM",
-         "description" : "Mic-E repeater"
-      },
-      "\\:" : {
-         "tocall" : "NR",
-         "description" : "Hail"
-      },
-      "/'" : {
-         "description" : "Small aircraft",
-         "tocall" : "BH"
-      },
-      "/8" : {
-         "description" : "Numbered circle: 8",
-         "tocall" : "P8"
-      },
-      "\\4" : {
-         "tocall" : "A4",
-         "unused" : "1"
-      },
-      "/D" : {
-         "tocall" : "PD",
-         "unused" : "1"
-      },
-      "/]" : {
-         "tocall" : "HU",
-         "description" : "Mailbox, post office"
-      },
-      "\\=" : {
-         "tocall" : "NU",
-         "unused" : "1"
-      },
-      "/U" : {
-         "description" : "Bus",
-         "tocall" : "PU"
-      },
-      "/J" : {
-         "unused" : "1",
-         "tocall" : "PJ"
-      },
-      "\\^" : {
-         "tocall" : "DV",
-         "description" : "Aircraft"
-      },
-      "/X" : {
-         "description" : "Helicopter",
-         "tocall" : "PX"
-      },
-      "\\a" : {
-         "tocall" : "SA",
-         "description" : "Red diamond"
-      },
-      "\\>" : {
-         "tocall" : "NV",
-         "description" : "Red car"
-      },
-      "/6" : {
-         "tocall" : "P6",
-         "description" : "Numbered circle: 6"
-      },
-      "/-" : {
-         "description" : "House",
-         "tocall" : "BN"
-      },
-      "\\v" : {
-         "description" : "Van",
-         "tocall" : "SV"
-      },
-      "\\%" : {
-         "unused" : "1",
-         "tocall" : "OF"
-      },
-      "/Y" : {
-         "description" : "Sailboat",
-         "tocall" : "PY"
-      },
-      "\\<" : {
-         "tocall" : "NT",
-         "description" : "Advisory, single red flag"
-      },
-      "\\X" : {
-         "description" : "Pharmacy",
-         "tocall" : "AX"
-      },
-      "\\@" : {
-         "tocall" : "NX",
-         "description" : "Hurricane, Tropical storm"
-      },
-      "\\`" : {
-         "description" : "Rain",
-         "tocall" : "DX"
-      },
-      "/h" : {
-         "tocall" : "LH",
-         "description" : "Hospital"
-      },
-      "/t" : {
-         "description" : "Truck stop",
-         "tocall" : "LT"
-      },
-      "//" : {
-         "tocall" : "BP",
-         "description" : "Red dot"
-      },
-      "\\M" : {
-         "unused" : "1",
-         "tocall" : "AM"
-      },
-      "\\P" : {
-         "description" : "Parking",
-         "tocall" : "AP"
-      },
-      "/L" : {
-         "tocall" : "PL",
-         "description" : "PC user"
-      },
-      "\\l" : {
-         "unused" : "1",
-         "tocall" : "SL"
-      },
-      "\\N" : {
-         "tocall" : "AN",
-         "description" : "Navigation buoy"
-      },
-      "/s" : {
-         "tocall" : "LS",
-         "description" : "Ship, power boat"
-      },
-      "/N" : {
-         "description" : "NTS station",
-         "tocall" : "PN"
-      },
-      "\\L" : {
-         "tocall" : "AL",
-         "description" : "Lighthouse"
-      },
-      "/^" : {
-         "description" : "Large aircraft",
-         "tocall" : "HV"
+      "/W" : {
+         "description" : "Weather service site",
+         "tocall" : "PW"
       },
       "/u" : {
-         "tocall" : "LU",
-         "description" : "Semi-trailer truck, 18-wheeler"
+         "description" : "Semi-trailer truck, 18-wheeler",
+         "tocall" : "LU"
       },
-      "/O" : {
-         "tocall" : "PO",
-         "description" : "Balloon"
+      "/;" : {
+         "description" : "Campground, tent",
+         "tocall" : "MS"
+      },
+      "\\w" : {
+         "description" : "Flooding",
+         "tocall" : "SW"
+      },
+      "/\\" : {
+         "description" : "DF triangle",
+         "tocall" : "HT"
+      },
+      "\\^" : {
+         "description" : "Aircraft",
+         "tocall" : "DV"
+      },
+      "\\." : {
+         "tocall" : "OO",
+         "description" : "Ambiguous, question mark inside circle"
+      },
+      "/_" : {
+         "description" : "Weather station",
+         "tocall" : "HW"
+      },
+      "\\>" : {
+         "description" : "Red car",
+         "tocall" : "NV"
+      },
+      "\\o" : {
+         "description" : "Small circle",
+         "tocall" : "SO"
+      },
+      "\\g" : {
+         "description" : "Gale, two red flags",
+         "tocall" : "SG"
+      },
+      "\\1" : {
+         "tocall" : "A1",
+         "unused" : "1"
+      },
+      "/A" : {
+         "description" : "Aid station",
+         "tocall" : "PA"
+      },
+      "\\6" : {
+         "tocall" : "A6",
+         "unused" : "1"
+      },
+      "\\d" : {
+         "description" : "DX spot",
+         "tocall" : "SD"
       },
       "\\c" : {
          "tocall" : "SC",
          "description" : "CD triangle, RACES, CERTS, SATERN"
       },
-      "/{" : {
-         "tocall" : "J1",
-         "unused" : "1"
+      "/(" : {
+         "description" : "Mobile satellite station",
+         "tocall" : "BI"
+      },
+      "\\_" : {
+         "tocall" : "DW",
+         "description" : "Weather site"
+      },
+      "/H" : {
+         "description" : "Hotel",
+         "tocall" : "PH"
+      },
+      "/C" : {
+         "tocall" : "PC",
+         "description" : "Canoe"
+      },
+      "\\<" : {
+         "tocall" : "NT",
+         "description" : "Advisory, single red flag"
+      },
+      "\\V" : {
+         "tocall" : "AV",
+         "description" : "VORTAC, Navigational aid"
+      },
+      "/6" : {
+         "tocall" : "P6",
+         "description" : "Numbered circle: 6"
       },
       "/I" : {
-         "description" : "TCP/IP network station",
-         "tocall" : "PI"
+         "tocall" : "PI",
+         "description" : "TCP/IP network station"
       },
-      "\\O" : {
-         "tocall" : "AO",
-         "description" : "Rocket"
+      "/P" : {
+         "tocall" : "PP",
+         "description" : "Police car"
       },
-      "\\i" : {
-         "description" : "Black box, point of interest",
-         "tocall" : "SI"
-      },
-      "\\1" : {
+      "\\=" : {
          "unused" : "1",
-         "tocall" : "A1"
+         "tocall" : "NU"
       },
-      "\\T" : {
-         "description" : "Thunderstorm",
-         "tocall" : "AT"
+      "\\/" : {
+         "description" : "Waypoint destination",
+         "tocall" : "OP"
       },
-      "/$" : {
-         "tocall" : "BE",
-         "description" : "Telephone"
+      "/[" : {
+         "description" : "Human",
+         "tocall" : "HS"
+      },
+      "/1" : {
+         "description" : "Numbered circle: 1",
+         "tocall" : "P1"
+      },
+      "\\N" : {
+         "description" : "Navigation buoy",
+         "tocall" : "AN"
+      },
+      "/F" : {
+         "tocall" : "PF",
+         "description" : "Farm vehicle, tractor"
+      },
+      "/V" : {
+         "tocall" : "PV",
+         "description" : "ATV, Amateur Television"
+      },
+      "\\*" : {
+         "tocall" : "OK",
+         "description" : "Snow"
+      },
+      "/," : {
+         "tocall" : "BM",
+         "description" : "Boy Scouts"
+      },
+      "\\E" : {
+         "tocall" : "AE",
+         "description" : "Smoke, Chimney"
+      },
+      "/S" : {
+         "description" : "Space Shuttle",
+         "tocall" : "PS"
+      },
+      "/X" : {
+         "description" : "Helicopter",
+         "tocall" : "PX"
+      },
+      "\\k" : {
+         "tocall" : "SK",
+         "description" : "SUV, ATV"
+      },
+      "/d" : {
+         "tocall" : "LD",
+         "description" : "Fire station"
+      },
+      "\\!" : {
+         "tocall" : "OB",
+         "description" : "Emergency"
+      },
+      "/#" : {
+         "tocall" : "BD",
+         "description" : "Digipeater"
+      },
+      "\\j" : {
+         "tocall" : "SJ",
+         "description" : "Work zone, excavating machine"
+      },
+      "/%" : {
+         "tocall" : "BF",
+         "description" : "DX cluster"
+      },
+      "/b" : {
+         "description" : "Bicycle",
+         "tocall" : "LB"
+      },
+      "\\D" : {
+         "tocall" : "AD",
+         "description" : "Drizzling rain"
+      },
+      "\\U" : {
+         "description" : "Sunny",
+         "tocall" : "AU"
+      },
+      "\\L" : {
+         "description" : "Lighthouse",
+         "tocall" : "AL"
+      },
+      "\\$" : {
+         "description" : "Bank or ATM",
+         "tocall" : "OE"
+      },
+      "\\K" : {
+         "tocall" : "AK",
+         "description" : "Kenwood HT"
+      },
+      "/*" : {
+         "description" : "Snowmobile",
+         "tocall" : "BK"
+      },
+      "/]" : {
+         "description" : "Mailbox, post office",
+         "tocall" : "HU"
+      },
+      "/T" : {
+         "tocall" : "PT",
+         "description" : "SSTV"
+      },
+      "\\Q" : {
+         "tocall" : "AQ",
+         "description" : "Earthquake"
+      },
+      "\\W" : {
+         "description" : "NWS site",
+         "tocall" : "AW"
+      },
+      "/8" : {
+         "description" : "Numbered circle: 8",
+         "tocall" : "P8"
+      },
+      "/j" : {
+         "tocall" : "LJ",
+         "description" : "Jeep"
+      },
+      "//" : {
+         "tocall" : "BP",
+         "description" : "Red dot"
+      },
+      "/L" : {
+         "description" : "PC user",
+         "tocall" : "PL"
+      },
+      "\\{" : {
+         "tocall" : "Q1",
+         "description" : "Fog"
+      },
+      "/h" : {
+         "tocall" : "LH",
+         "description" : "Hospital"
+      },
+      "\\\\" : {
+         "tocall" : "DT",
+         "unused" : "1"
+      },
+      "\\P" : {
+         "tocall" : "AP",
+         "description" : "Parking"
+      },
+      "\\7" : {
+         "unused" : "1",
+         "tocall" : "A7"
+      },
+      "/R" : {
+         "description" : "Recreational vehicle",
+         "tocall" : "PR"
+      },
+      "\\`" : {
+         "description" : "Rain",
+         "tocall" : "DX"
+      },
+      "\\S" : {
+         "tocall" : "AS",
+         "description" : "Satellite"
+      },
+      "\\e" : {
+         "tocall" : "SE",
+         "description" : "Sleet"
+      },
+      "\\5" : {
+         "unused" : "1",
+         "tocall" : "A5"
+      },
+      "\\3" : {
+         "unused" : "1",
+         "tocall" : "A3"
+      },
+      "/M" : {
+         "tocall" : "PM",
+         "description" : "Mac apple"
       },
       "\\\"" : {
          "tocall" : "OC",
          "unused" : "1"
       },
-      "\\+" : {
-         "description" : "Church",
-         "tocall" : "OL"
+      "\\b" : {
+         "description" : "Blowing dust, sand",
+         "tocall" : "SB"
       },
-      "\\n" : {
-         "description" : "Red triangle",
-         "tocall" : "SN"
+      "\\:" : {
+         "description" : "Hail",
+         "tocall" : "NR"
       },
-      "/%" : {
-         "description" : "DX cluster",
-         "tocall" : "BF"
+      "/e" : {
+         "description" : "Horse, equestrian",
+         "tocall" : "LE"
       },
-      "/7" : {
-         "tocall" : "P7",
-         "description" : "Numbered circle: 7"
-      },
-      "/`" : {
-         "description" : "Satellite dish antenna",
-         "tocall" : "HX"
-      },
-      "/Z" : {
-         "description" : "Windows flag",
-         "tocall" : "PZ"
-      },
-      "/!" : {
-         "description" : "Police station",
-         "tocall" : "BB"
-      },
-      "\\0" : {
-         "description" : "Circle, IRLP / Echolink/WIRES",
-         "tocall" : "A0"
-      },
-      "\\?" : {
-         "description" : "Info kiosk",
-         "tocall" : "NW"
-      },
-      "\\f" : {
-         "tocall" : "SF",
-         "description" : "Funnel cloud"
-      },
-      "/b" : {
-         "tocall" : "LB",
-         "description" : "Bicycle"
+      "/g" : {
+         "description" : "Glider",
+         "tocall" : "LG"
       },
       "\\B" : {
          "description" : "Blowing snow",
          "tocall" : "AB"
       },
-      "/1" : {
-         "tocall" : "P1",
-         "description" : "Numbered circle: 1"
+      "\\M" : {
+         "unused" : "1",
+         "tocall" : "AM"
+      },
+      "/x" : {
+         "description" : "X / Unix",
+         "tocall" : "LX"
+      },
+      "\\@" : {
+         "tocall" : "NX",
+         "description" : "Hurricane, Tropical storm"
       },
       "/k" : {
-         "tocall" : "LK",
-         "description" : "Truck"
+         "description" : "Truck",
+         "tocall" : "LK"
       },
-      "/\"" : {
+      "/O" : {
+         "tocall" : "PO",
+         "description" : "Balloon"
+      },
+      "\\a" : {
+         "description" : "Red diamond",
+         "tocall" : "SA"
+      },
+      "/r" : {
+         "description" : "Repeater tower",
+         "tocall" : "LR"
+      },
+      "\\8" : {
+         "description" : "802.11 WiFi or other network node",
+         "tocall" : "A8"
+      },
+      "\\;" : {
+         "tocall" : "NS",
+         "description" : "Park, picnic area"
+      },
+      "/f" : {
+         "description" : "Fire truck",
+         "tocall" : "LF"
+      },
+      "/@" : {
+         "description" : "Hurricane predicted path",
+         "tocall" : "MX"
+      },
+      "\\G" : {
+         "tocall" : "AG",
+         "description" : "Snow shower"
+      },
+      "\\&" : {
+         "description" : "Gateway station",
+         "tocall" : "OG"
+      },
+      "/v" : {
+         "description" : "Van",
+         "tocall" : "LV"
+      },
+      "/!" : {
+         "tocall" : "BB",
+         "description" : "Police station"
+      },
+      "/:" : {
+         "description" : "Fire",
+         "tocall" : "MR"
+      },
+      "\\H" : {
+         "tocall" : "AH",
+         "description" : "Haze"
+      },
+      "/N" : {
+         "tocall" : "PN",
+         "description" : "NTS station"
+      },
+      "\\)" : {
+         "description" : "Firenet MEO, MODIS Earth Observation",
+         "tocall" : "OJ"
+      },
+      "/2" : {
+         "tocall" : "P2",
+         "description" : "Numbered circle: 2"
+      },
+      "/?" : {
+         "description" : "File server",
+         "tocall" : "MW"
+      },
+      "\\2" : {
          "unused" : "1",
-         "tocall" : "BC"
+         "tocall" : "A2"
       },
-      "/S" : {
-         "tocall" : "PS",
-         "description" : "Space Shuttle"
+      "/q" : {
+         "tocall" : "LQ",
+         "description" : "Grid square, 2 by 2"
+      },
+      "/z" : {
+         "tocall" : "LZ",
+         "description" : "Shelter"
+      },
+      "/K" : {
+         "description" : "School",
+         "tocall" : "PK"
+      },
+      "\\J" : {
+         "description" : "Lightning",
+         "tocall" : "AJ"
+      },
+      "/+" : {
+         "description" : "Red Cross",
+         "tocall" : "BL"
+      },
+      "/>" : {
+         "tocall" : "MV",
+         "description" : "Car"
+      },
+      "\\4" : {
+         "tocall" : "A4",
+         "unused" : "1"
+      },
+      "\\f" : {
+         "description" : "Funnel cloud",
+         "tocall" : "SF"
+      },
+      "\\u" : {
+         "description" : "Truck",
+         "tocall" : "SU"
+      },
+      "/)" : {
+         "description" : "Wheelchair, handicapped",
+         "tocall" : "BJ"
+      },
+      "\\%" : {
+         "unused" : "1",
+         "tocall" : "OF"
+      },
+      "/E" : {
+         "description" : "Eyeball",
+         "tocall" : "PE"
+      },
+      "/B" : {
+         "description" : "BBS",
+         "tocall" : "PB"
+      },
+      "/-" : {
+         "tocall" : "BN",
+         "description" : "House"
+      },
+      "\\z" : {
+         "description" : "Shelter",
+         "tocall" : "SZ"
+      },
+      "\\i" : {
+         "description" : "Black box, point of interest",
+         "tocall" : "SI"
+      },
+      "/`" : {
+         "description" : "Satellite dish antenna",
+         "tocall" : "HX"
+      },
+      "\\9" : {
+         "tocall" : "A9",
+         "description" : "Gas station"
+      },
+      "\\A" : {
+         "tocall" : "AA",
+         "description" : "White box"
+      },
+      "/4" : {
+         "tocall" : "P4",
+         "description" : "Numbered circle: 4"
+      },
+      "/m" : {
+         "tocall" : "LM",
+         "description" : "Mic-E repeater"
+      },
+      "\\q" : {
+         "unused" : "1",
+         "tocall" : "SQ"
+      },
+      "/c" : {
+         "description" : "Incident command post",
+         "tocall" : "LC"
+      },
+      "\\n" : {
+         "tocall" : "SN",
+         "description" : "Red triangle"
+      },
+      "\\F" : {
+         "tocall" : "AF",
+         "description" : "Freezing rain"
+      },
+      "/0" : {
+         "description" : "Numbered circle: 0",
+         "tocall" : "P0"
+      },
+      "/{" : {
+         "tocall" : "J1",
+         "unused" : "1"
+      },
+      "\\t" : {
+         "description" : "Tornado",
+         "tocall" : "ST"
+      },
+      "/n" : {
+         "tocall" : "LN",
+         "description" : "Node, black bulls-eye"
+      },
+      "/3" : {
+         "description" : "Numbered circle: 3",
+         "tocall" : "P3"
+      },
+      "/J" : {
+         "tocall" : "PJ",
+         "unused" : "1"
+      },
+      "/G" : {
+         "tocall" : "PG",
+         "description" : "Grid square, 3 by 3"
+      },
+      "\\?" : {
+         "tocall" : "NW",
+         "description" : "Info kiosk"
+      },
+      "/Q" : {
+         "tocall" : "PQ",
+         "unused" : "1"
+      },
+      "/}" : {
+         "unused" : "1",
+         "tocall" : "J3"
+      },
+      "\\y" : {
+         "tocall" : "SY",
+         "description" : "Skywarn"
+      },
+      "/p" : {
+         "description" : "Dog",
+         "tocall" : "LP"
+      },
+      "\\'" : {
+         "description" : "Crash / incident site",
+         "tocall" : "OH"
+      },
+      "/<" : {
+         "tocall" : "MT",
+         "description" : "Motorcycle"
+      },
+      "\\C" : {
+         "tocall" : "AC",
+         "description" : "Coast Guard"
+      },
+      "/w" : {
+         "tocall" : "LW",
+         "description" : "Water station"
+      },
+      "\\v" : {
+         "description" : "Van",
+         "tocall" : "SV"
+      },
+      "\\m" : {
+         "tocall" : "SM",
+         "description" : "Value sign, 3 digit display"
+      },
+      "/Z" : {
+         "description" : "Windows flag",
+         "tocall" : "PZ"
+      },
+      "\\O" : {
+         "description" : "Rocket",
+         "tocall" : "AO"
+      },
+      "/s" : {
+         "description" : "Ship, power boat",
+         "tocall" : "LS"
+      },
+      "/i" : {
+         "description" : "IOTA, islands on the air",
+         "tocall" : "LI"
+      },
+      "/t" : {
+         "description" : "Truck stop",
+         "tocall" : "LT"
+      },
+      "\\R" : {
+         "tocall" : "AR",
+         "description" : "Restaurant"
+      },
+      "\\I" : {
+         "description" : "Rain shower",
+         "tocall" : "AI"
+      },
+      "/=" : {
+         "description" : "Railroad engine",
+         "tocall" : "MU"
+      },
+      "\\l" : {
+         "unused" : "1",
+         "tocall" : "SL"
+      },
+      "\\r" : {
+         "description" : "Restrooms",
+         "tocall" : "SR"
+      },
+      "\\X" : {
+         "description" : "Pharmacy",
+         "tocall" : "AX"
+      },
+      "\\," : {
+         "tocall" : "OM",
+         "description" : "Girl Scouts"
+      },
+      "/l" : {
+         "description" : "Laptop",
+         "tocall" : "LL"
+      },
+      "/." : {
+         "tocall" : "BO",
+         "description" : "Red X"
+      },
+      "/o" : {
+         "description" : "Emergency operations center",
+         "tocall" : "LO"
+      },
+      "/$" : {
+         "description" : "Telephone",
+         "tocall" : "BE"
+      },
+      "/y" : {
+         "tocall" : "LY",
+         "description" : "House, yagi antenna"
+      },
+      "\\s" : {
+         "description" : "Ship, boat",
+         "tocall" : "SS"
+      },
+      "\\(" : {
+         "description" : "Cloudy",
+         "tocall" : "OI"
+      },
+      "/^" : {
+         "description" : "Large aircraft",
+         "tocall" : "HV"
+      },
+      "/5" : {
+         "description" : "Numbered circle: 5",
+         "tocall" : "P5"
+      },
+      "\\p" : {
+         "description" : "Partly cloudy",
+         "tocall" : "SP"
+      },
+      "\\}" : {
+         "unused" : "1",
+         "tocall" : "Q3"
+      },
+      "/D" : {
+         "unused" : "1",
+         "tocall" : "PD"
+      },
+      "\\]" : {
+         "unused" : "1",
+         "tocall" : "DU"
+      },
+      "/a" : {
+         "description" : "Ambulance",
+         "tocall" : "LA"
+      },
+      "\\[" : {
+         "description" : "Wall Cloud",
+         "tocall" : "DS"
+      },
+      "\\-" : {
+         "tocall" : "ON",
+         "description" : "House, HF antenna"
+      },
+      "\\+" : {
+         "description" : "Church",
+         "tocall" : "OL"
+      },
+      "/U" : {
+         "tocall" : "PU",
+         "description" : "Bus"
+      },
+      "\\T" : {
+         "description" : "Thunderstorm",
+         "tocall" : "AT"
+      },
+      "/7" : {
+         "description" : "Numbered circle: 7",
+         "tocall" : "P7"
+      },
+      "\\Y" : {
+         "tocall" : "AY",
+         "unused" : "1"
+      },
+      "/9" : {
+         "description" : "Numbered circle: 9",
+         "tocall" : "P9"
+      },
+      "\\0" : {
+         "description" : "Circle, IRLP / Echolink/WIRES",
+         "tocall" : "A0"
+      },
+      "\\#" : {
+         "description" : "Digipeater, green star",
+         "tocall" : "OD"
+      },
+      "/'" : {
+         "tocall" : "BH",
+         "description" : "Small aircraft"
+      },
+      "/&" : {
+         "description" : "HF gateway",
+         "tocall" : "BG"
+      }
+   },
+   "overlays" : {
+      "WH" : {
+         "class" : "hazard",
+         "description" : "Hazardous waste"
+      },
+      "Bu" : {
+         "class" : "truck",
+         "description" : "Bulldozer/construction/Backhoe"
+      },
+      "W&" : {
+         "class" : "gateway",
+         "description" : "WIRES-X"
+      },
+      "Wa" : {
+         "class" : "org",
+         "description" : "WinLink"
+      },
+      "MH" : {
+         "description" : "Methane hazard",
+         "class" : "hazard"
+      },
+      "G%" : {
+         "class" : "power",
+         "description" : "Geothermal"
+      },
+      "P&" : {
+         "class" : "gateway",
+         "description" : "PSKmail node"
+      },
+      "Da" : {
+         "description" : "D-STAR"
+      },
+      "Tz" : {
+         "description" : "Triage",
+         "class" : "shelter"
+      },
+      "G=" : {
+         "class" : "rail",
+         "description" : "Gondola"
+      },
+      "Ya" : {
+         "description" : "C4FM Yaesu repeaters",
+         "class" : "repeater"
+      },
+      "G-" : {
+         "description" : "Geothermal",
+         "class" : "house"
+      },
+      "I;" : {
+         "class" : "portable",
+         "description" : "Islands on the air"
+      },
+      "F>" : {
+         "description" : "Fuel cell or hydrogen car",
+         "class" : "car"
+      },
+      "B[" : {
+         "description" : "Baby on board (stroller, pram etc)",
+         "class" : "human"
+      },
+      "AA" : {
+         "description" : "AllStar DTMF report",
+         "class" : "report"
+      },
+      "Mw" : {
+         "description" : "Mud slide",
+         "class" : "water"
+      },
+      "FD" : {
+         "description" : "Ferry Landing",
+         "class" : "depot"
+      },
+      "Sa" : {
+         "description" : "SATERN Salvation Army",
+         "class" : "org"
+      },
+      "RD" : {
+         "class" : "depot",
+         "description" : "Rail depot"
+      },
+      "E-" : {
+         "class" : "house",
+         "description" : "Emergency power (grid down)"
+      },
+      "MR" : {
+         "class" : "restaurant",
+         "description" : "McDonalds"
+      },
+      "H%" : {
+         "description" : "Hydroelectric",
+         "class" : "power"
+      },
+      "L$" : {
+         "class" : "currency",
+         "description" : "British Pound"
+      },
+      "I0" : {
+         "description" : "IRLP repeater",
+         "class" : "repeater"
+      },
+      "2>" : {
+         "description" : "Numbered car 2",
+         "class" : "car"
+      },
+      "Os" : {
+         "class" : "vessel",
+         "description" : "Oil rig"
+      },
+      "DE" : {
+         "class" : "weather",
+         "description" : "Blowing dust or sand"
+      },
+      "4k" : {
+         "class" : "car",
+         "description" : "4x4"
+      },
+      "Qs" : {
+         "description" : "Torpedo boat",
+         "class" : "vessel"
+      },
+      "H[" : {
+         "class" : "human",
+         "description" : "Hiker"
+      },
+      "T&" : {
+         "class" : "gateway",
+         "description" : "Transmit-capable igate"
+      },
+      "H=" : {
+         "description" : "High Speed Rail",
+         "class" : "rail"
+      },
+      "W%" : {
+         "class" : "power",
+         "description" : "Wind"
+      },
+      "8>" : {
+         "class" : "car",
+         "description" : "Numbered car 8"
+      },
+      "E!" : {
+         "description" : "ELT or EPIRB",
+         "class" : "emergency"
+      },
+      "W-" : {
+         "class" : "house",
+         "description" : "Wind power"
+      },
+      "HA" : {
+         "class" : "report",
+         "description" : "House DTMF user"
+      },
+      "Gz" : {
+         "description" : "Government building",
+         "class" : "shelter"
+      },
+      "KR" : {
+         "class" : "restaurant",
+         "description" : "KFC"
+      },
+      "BO" : {
+         "description" : "Blimp",
+         "class" : "balloon"
+      },
+      "T'" : {
+         "description" : "Truck wreck",
+         "class" : "incident"
+      },
+      "F;" : {
+         "description" : "Field Day",
+         "class" : "portable"
+      },
+      "FE" : {
+         "description" : "(F overlay) Fog",
+         "class" : "weather"
+      },
+      "Ys" : {
+         "class" : "vessel",
+         "description" : "Sailing (large ship)"
+      },
+      "Aa" : {
+         "class" : "org",
+         "description" : "ARES"
+      },
+      "N%" : {
+         "description" : "Nuclear",
+         "class" : "power"
+      },
+      "1>" : {
+         "description" : "Numbered car 1",
+         "class" : "car"
+      },
+      "TR" : {
+         "description" : "Taco Bell",
+         "class" : "restaurant"
+      },
+      "3>" : {
+         "description" : "Numbered car 3",
+         "class" : "car"
+      },
+      "R[" : {
+         "description" : "Runner",
+         "class" : "human"
+      },
+      "WO" : {
+         "description" : "World-round balloon",
+         "class" : "balloon"
+      },
+      "Rw" : {
+         "description" : "Red flood gauge",
+         "class" : "water"
+      },
+      "D^" : {
+         "description" : "Drone",
+         "class" : "aircraft"
+      },
+      "RA" : {
+         "class" : "report",
+         "description" : "RFID report"
+      },
+      "BY" : {
+         "description" : "Byonics",
+         "class" : "radio"
+      },
+      "Ez" : {
+         "description" : "Emergency Power",
+         "class" : "shelter"
+      },
+      "KY" : {
+         "class" : "radio",
+         "description" : "Kenwood"
+      },
+      "Mz" : {
+         "class" : "shelter",
+         "description" : "Morgue"
+      },
+      "4>" : {
+         "class" : "car",
+         "description" : "Numbered car 4"
+      },
+      "P>" : {
+         "description" : "Plugin hybrid car",
+         "class" : "car"
+      },
+      "Hh" : {
+         "class" : "building",
+         "description" : "Hardware Store"
+      },
+      "EA" : {
+         "class" : "report",
+         "description" : "Echolink DTMF report"
+      },
+      "P=" : {
+         "description" : "Passenger",
+         "class" : "rail"
+      },
+      "V0" : {
+         "description" : "Echolink and IRLP",
+         "class" : "repeater"
+      },
+      "I=" : {
+         "class" : "rail",
+         "description" : "Inclined rail"
+      },
+      "TO" : {
+         "class" : "balloon",
+         "description" : "Tethered balloon"
+      },
+      "LD" : {
+         "class" : "depot",
+         "description" : "Light rail or Subway"
+      },
+      "Ps" : {
+         "description" : "Pilot boat",
+         "class" : "vessel"
+      },
+      "E#" : {
+         "description" : "Emergency powered digipeater",
+         "class" : "digipeater"
+      },
+      "S;" : {
+         "description" : "Summits on the air",
+         "class" : "portable"
+      },
+      "7A" : {
+         "description" : "HT DTMF user",
+         "class" : "report"
+      },
+      "C-" : {
+         "description" : "Combined alternatives",
+         "class" : "house"
+      },
+      "A\\" : {
+         "description" : "Avmap G5",
+         "class" : "gps"
+      },
+      "1#" : {
+         "description" : "WIDE1-1 digipeater",
+         "class" : "digipeater"
+      },
+      "R&" : {
+         "description" : "Receive only igate",
+         "class" : "gateway"
+      },
+      "6-" : {
+         "description" : "60 Hz AC power",
+         "class" : "house"
+      },
+      "HD" : {
+         "description" : "Heliport",
+         "class" : "depot"
+      },
+      "Es" : {
+         "description" : "Emergency or Medical transport vessel",
+         "class" : "vessel"
+      },
+      "SD" : {
+         "description" : "Seaport depot",
+         "class" : "depot"
+      },
+      "9>" : {
+         "description" : "Numbered car 9",
+         "class" : "car"
+      },
+      "E%" : {
+         "class" : "power",
+         "description" : "Emergency"
+      },
+      "2&" : {
+         "class" : "gateway",
+         "description" : "TX igate with path set to 2 hops"
+      },
+      "S^" : {
+         "class" : "aircraft",
+         "description" : "Solar powered aircraft"
+      },
+      "Fs" : {
+         "description" : "Fishing boat"
+      },
+      "U=" : {
+         "description" : "Subway",
+         "class" : "rail"
+      },
+      "6s" : {
+         "class" : "vessel",
+         "description" : "Shipwreck"
+      },
+      "M^" : {
+         "description" : "Missile",
+         "class" : "aircraft"
+      },
+      "V^" : {
+         "description" : "Vertical takeoff aircraft",
+         "class" : "aircraft"
+      },
+      "M'" : {
+         "class" : "incident",
+         "description" : "Multi-Vehicle crash site"
+      },
+      "W0" : {
+         "class" : "repeater",
+         "description" : "WIRES (Yaesu VOIP)"
+      },
+      "Ms" : {
+         "class" : "vessel",
+         "description" : "Military vessel"
+      },
+      "88" : {
+         "class" : "node",
+         "description" : "802.11 network node"
+      },
+      "E^" : {
+         "description" : "Electric aircraft",
+         "class" : "aircraft"
+      },
+      "RO" : {
+         "class" : "balloon",
+         "description" : "Rocket bearing Balloon (Rockoon)"
+      },
+      "M=" : {
+         "class" : "rail",
+         "description" : "Monorail"
+      },
+      "B=" : {
+         "class" : "rail",
+         "description" : "Bus-rail/trolley/streetcar/guiderail"
+      },
+      "P^" : {
+         "description" : "Propeller aircraft",
+         "class" : "aircraft"
+      },
+      "Yw" : {
+         "description" : "Yellow flood gauge",
+         "class" : "water"
+      },
+      "AY" : {
+         "description" : "Alinco",
+         "class" : "radio"
+      },
+      "U$" : {
+         "class" : "currency",
+         "description" : "US dollar"
+      },
+      "Ga" : {
+         "description" : "RSGB Radio Society of Great Britain",
+         "class" : "org"
+      },
+      "MO" : {
+         "class" : "balloon",
+         "description" : "Manned balloon"
+      },
+      "Ak" : {
+         "description" : "ATV (all terrain vehicle)",
+         "class" : "car"
+      },
+      "Ts" : {
+         "description" : "Tug",
+         "class" : "vessel"
+      },
+      "5-" : {
+         "description" : "50 Hz AC power",
+         "class" : "house"
+      },
+      "Fh" : {
+         "description" : "Hamfest",
+         "class" : "building"
+      },
+      "Ws" : {
+         "description" : "Wing-in-Ground effect (or Hovercraft)",
+         "class" : "vessel"
+      },
+      "SE" : {
+         "class" : "weather",
+         "description" : "Smoke"
+      },
+      "S0" : {
+         "class" : "civildef",
+         "description" : "Staging Area"
+      },
+      "R%" : {
+         "description" : "Renewable (hydrogen, etc)",
+         "class" : "power"
+      },
+      "Sw" : {
+         "description" : "Snow Blockage",
+         "class" : "water"
+      },
+      "\\\\$" : {
+         "class" : "currency",
+         "description" : "Bank or ATM"
+      },
+      "T=" : {
+         "description" : "Terminal (station)",
+         "class" : "rail"
+      },
+      "A^" : {
+         "class" : "aircraft",
+         "description" : "Autonomous aircraft"
+      },
+      "XA" : {
+         "description" : "OLPC Laptop XO",
+         "class" : "report"
+      },
+      "Bs" : {
+         "description" : "Pleasure boat",
+         "class" : "vessel"
+      },
+      "HE" : {
+         "description" : "Haze",
+         "class" : "weather"
+      },
+      "7>" : {
+         "class" : "car",
+         "description" : "Numbered car 7"
+      },
+      "L#" : {
+         "description" : "WIDEn-N digipeater with path length trapping",
+         "class" : "digipeater"
+      },
+      "BE" : {
+         "description" : "Blowing Snow",
+         "class" : "weather"
+      },
+      "6>" : {
+         "description" : "Numbered car 6",
+         "class" : "car"
+      },
+      "Cz" : {
+         "class" : "shelter",
+         "description" : "Clinic"
+      },
+      "Gu" : {
+         "description" : "Gas truck",
+         "class" : "truck"
+      },
+      "H'" : {
+         "description" : "Hazardous incident",
+         "class" : "incident"
+      },
+      "J^" : {
+         "description" : "Jet aircraft",
+         "class" : "aircraft"
+      },
+      "A#" : {
+         "description" : "Alternate input frequency digipeater",
+         "class" : "digipeater"
+      },
+      "Ra" : {
+         "class" : "org",
+         "description" : "RACES"
+      },
+      "Xs" : {
+         "class" : "vessel",
+         "description" : "Passenger ferry"
+      },
+      "X=" : {
+         "class" : "rail",
+         "description" : "Excursion train"
+      },
+      "C%" : {
+         "class" : "power",
+         "description" : "Coal"
+      },
+      "S-" : {
+         "description" : "Solar Power",
+         "class" : "house"
+      },
+      "H^" : {
+         "description" : "Hovercraft",
+         "class" : "aircraft"
+      },
+      "B-" : {
+         "class" : "house",
+         "description" : "Battery or off grid"
+      },
+      "XH" : {
+         "class" : "hazard",
+         "description" : "Skull & Crossbones"
+      },
+      "V#" : {
+         "description" : "Viscous digipeater",
+         "class" : "digipeater"
+      },
+      "S>" : {
+         "class" : "car",
+         "description" : "Solar powered car"
+      },
+      "Cu" : {
+         "description" : "Chlorine Tanker",
+         "class" : "truck"
+      },
+      "E=" : {
+         "class" : "rail",
+         "description" : "Electric"
+      },
+      "IA" : {
+         "description" : "IRLP DTMF report",
+         "class" : "report"
+      },
+      "A0" : {
+         "description" : "Allstar Node",
+         "class" : "repeater"
+      },
+      "Tu" : {
+         "description" : "Tanker truck",
+         "class" : "truck"
+      },
+      "B>" : {
+         "description" : "Battery electric car",
+         "class" : "car"
+      },
+      "\\\\!" : {
+         "class" : "emergency",
+         "description" : "Emergency"
+      },
+      "I#" : {
+         "description" : "I-gate equipped digipeater",
+         "class" : "digipeater"
+      },
+      "5>" : {
+         "class" : "car",
+         "description" : "Numbered car 5"
+      },
+      "A'" : {
+         "class" : "incident",
+         "description" : "Automobile crash site"
+      },
+      "D=" : {
+         "description" : "Diesel",
+         "class" : "rail"
+      },
+      "X^" : {
+         "description" : "Experimental aircraft",
+         "class" : "aircraft"
+      },
+      "X#" : {
+         "description" : "Experimental digipeater",
+         "class" : "digipeater"
+      },
+      "7R" : {
+         "class" : "restaurant",
+         "description" : "7/11"
+      },
+      "DA" : {
+         "class" : "report",
+         "description" : "D-Star report"
+      },
+      "S#" : {
+         "class" : "digipeater",
+         "description" : "SSn-N digipeater (includes WIDEn-N)"
+      },
+      "S[" : {
+         "class" : "human",
+         "description" : "Skier"
+      },
+      "G8" : {
+         "class" : "node",
+         "description" : "802.11G"
+      },
+      "/!" : {
+         "class" : "emergency",
+         "description" : "Police/Sheriff, etc"
+      },
+      "W#" : {
+         "class" : "digipeater",
+         "description" : "Digipeater with WIDEn-N, SSn-N and Trapping"
+      },
+      "AD" : {
+         "class" : "depot",
+         "description" : "Airport"
+      },
+      "R^" : {
+         "class" : "aircraft",
+         "description" : "Remotely piloted aircraft"
+      },
+      "YY" : {
+         "description" : "Yaesu",
+         "class" : "radio"
+      },
+      "Hs" : {
+         "class" : "vessel",
+         "description" : "High-speed Craft"
+      },
+      "Nw" : {
+         "description" : "Normal flood gauge (blue)",
+         "class" : "water"
+      },
+      "Ss" : {
+         "class" : "vessel",
+         "description" : "Search and Rescue boat"
+      },
+      "Cs" : {
+         "description" : "Cargo ship",
+         "class" : "vessel"
+      },
+      "F=" : {
+         "class" : "rail",
+         "description" : "Freight"
+      },
+      "Js" : {
+         "class" : "vessel",
+         "description" : "Jet Ski"
+      },
+      "P#" : {
+         "class" : "digipeater",
+         "description" : "PacComm"
+      },
+      "9A" : {
+         "description" : "Mobile DTMF user",
+         "class" : "report"
+      },
+      "Ls" : {
+         "description" : "Law enforcement vessel",
+         "class" : "vessel"
+      },
+      "CO" : {
+         "class" : "balloon",
+         "description" : "Constant pressure - Long duration balloon"
+      },
+      "Ds" : {
+         "description" : "Diving boat",
+         "class" : "vessel"
+      },
+      "BD" : {
+         "class" : "depot",
+         "description" : "Bus depot"
+      },
+      "Dc" : {
+         "class" : "civildef",
+         "description" : "Decontamination"
+      },
+      "RH" : {
+         "description" : "Radiation detector",
+         "class" : "hazard"
+      },
+      "Pu" : {
+         "class" : "truck",
+         "description" : "Plow or SnowPlow"
+      },
+      "Ch" : {
+         "description" : "Ham radio club",
+         "class" : "building"
+      },
+      "E>" : {
+         "class" : "car",
+         "description" : "Ethanol car"
+      },
+      "0>" : {
+         "description" : "Numbered car 0",
+         "class" : "car"
+      },
+      "Eh" : {
+         "class" : "building",
+         "description" : "Electronics store"
+      },
+      "T%" : {
+         "description" : "Turbine",
+         "class" : "power"
+      },
+      "S=" : {
+         "class" : "rail",
+         "description" : "Steam rail"
+      },
+      "S%" : {
+         "description" : "Solar",
+         "class" : "power"
+      },
+      "Hu" : {
+         "class" : "truck",
+         "description" : "Hazardous material truck"
+      },
+      "E0" : {
+         "class" : "repeater",
+         "description" : "Echolink Node"
+      },
+      "Us" : {
+         "class" : "vessel",
+         "description" : "Underwater ops or submarine"
+      },
+      "C=" : {
+         "description" : "Commuter",
+         "class" : "rail"
+      },
+      "H-" : {
+         "description" : "Hydro powered",
+         "class" : "house"
+      },
+      "L=" : {
+         "description" : "Elevated rail",
+         "class" : "rail"
+      },
+      "V!" : {
+         "class" : "emergency",
+         "description" : "Volcanic eruption or lava"
+      },
+      "Rc" : {
+         "class" : "civildef",
+         "description" : "RACES"
+      },
+      "O-" : {
+         "description" : "Operator Present",
+         "class" : "house"
+      },
+      "Aw" : {
+         "class" : "water",
+         "description" : "Avalanche"
+      },
+      "W;" : {
+         "description" : "WOTA",
+         "class" : "portable"
+      },
+      "Sc" : {
+         "description" : "SATERN mobile canteen",
+         "class" : "civildef"
+      },
+      "P'" : {
+         "class" : "incident",
+         "description" : "Pileup"
+      },
+      "Gw" : {
+         "class" : "water",
+         "description" : "Green Flood Gauge"
+      },
+      "Y$" : {
+         "description" : "Japanese Yen",
+         "class" : "currency"
+      },
+      "H>" : {
+         "class" : "car",
+         "description" : "Home-made car"
+      },
+      "P%" : {
+         "description" : "Portable",
+         "class" : "power"
+      },
+      "IY" : {
+         "class" : "radio",
+         "description" : "Icom"
       }
    },
    "classes" : {
+      "human" : {
+         "description" : "People",
+         "shown" : "Human"
+      },
+      "civildef" : {
+         "description" : "Civil protection services",
+         "shown" : "Civil defence"
+      },
+      "gateway" : {
+         "description" : "APRS gateway stations",
+         "shown" : "Gateway"
+      },
+      "advisory" : {
+         "description" : "Warnings and advisories",
+         "shown" : "Advisory"
+      },
+      "digipeater" : {
+         "shown" : "Digipeater",
+         "description" : "APRS digipeaters"
+      },
+      "car" : {
+         "description" : "Cars",
+         "shown" : "Car"
+      },
+      "water" : {
+         "description" : "Water",
+         "shown" : "Water"
+      },
+      "restaurant" : {
+         "description" : "Restaurants",
+         "shown" : "Restaurant"
+      },
+      "report" : {
+         "description" : "DTMF reports and other check-in gateways",
+         "shown" : "Report"
+      },
+      "aircraft" : {
+         "shown" : "Aircraft",
+         "description" : "Aircraft"
+      },
+      "gps" : {
+         "description" : "GPS devices",
+         "shown" : "GPS"
+      },
+      "radio" : {
+         "shown" : "Radio",
+         "description" : "Radios and APRS devices"
+      },
+      "weather" : {
+         "description" : "Significant weather",
+         "shown" : "Weather"
+      },
+      "shelter" : {
+         "shown" : "Shelter",
+         "description" : "Shelters"
+      },
+      "building" : {
+         "description" : "Buildings",
+         "shown" : "Building"
+      },
+      "incident" : {
+         "description" : "Incident sites",
+         "shown" : "Incident"
+      },
+      "house" : {
+         "description" : "Houses",
+         "shown" : "House"
+      },
+      "truck" : {
+         "shown" : "Truck",
+         "description" : "Trucks"
+      },
+      "org" : {
+         "shown" : "Organisation",
+         "description" : "Clubs, organisations"
+      },
+      "currency" : {
+         "shown" : "Currency",
+         "description" : "Currency, ATMs"
+      },
+      "portable" : {
+         "description" : "Portable operations",
+         "shown" : "Portable"
+      },
+      "eyeball" : {
+         "shown" : "Eyeball",
+         "description" : "Events and visibility"
+      },
+      "emergency" : {
+         "description" : "Emergencies",
+         "shown" : "Emergency"
+      },
       "vessel" : {
          "shown" : "Vessel",
          "description" : "Ships and other vessels"
@@ -1439,121 +1638,29 @@
          "description" : "Balloons, lighter than air",
          "shown" : "Balloon"
       },
-      "incident" : {
-         "shown" : "Incident",
-         "description" : "Incident sites"
-      },
-      "gps" : {
-         "description" : "GPS devices",
-         "shown" : "GPS"
-      },
-      "house" : {
-         "shown" : "House",
-         "description" : "Houses"
-      },
-      "report" : {
-         "shown" : "Report",
-         "description" : "DTMF reports and other check-in gateways"
-      },
-      "water" : {
-         "description" : "Water",
-         "shown" : "Water"
-      },
-      "shelter" : {
-         "shown" : "Shelter",
-         "description" : "Shelters"
-      },
-      "hazard" : {
-         "shown" : "Hazard",
-         "description" : "Hazards"
-      },
-      "human" : {
-         "shown" : "Human",
-         "description" : "People"
-      },
-      "emergency" : {
-         "description" : "Emergencies",
-         "shown" : "Emergency"
-      },
-      "weather" : {
-         "shown" : "Weather",
-         "description" : "Significant weather"
-      },
-      "radio" : {
-         "shown" : "Radio",
-         "description" : "Radios and APRS devices"
-      },
-      "currency" : {
-         "shown" : "Currency",
-         "description" : "Currency, ATMs"
-      },
-      "gateway" : {
-         "description" : "APRS gateway stations",
-         "shown" : "Gateway"
+      "repeater" : {
+         "shown" : "Repeater",
+         "description" : "Repeaters, voice nodes and hotspots"
       },
       "rail" : {
          "shown" : "Rail",
          "description" : "Rail"
       },
-      "repeater" : {
-         "description" : "Repeaters, voice nodes and hotspots",
-         "shown" : "Repeater"
+      "node" : {
+         "shown" : "Node",
+         "description" : "Data network nodes"
       },
-      "portable" : {
-         "shown" : "Portable",
-         "description" : "Portable operations"
-      },
-      "advisory" : {
-         "description" : "Warnings and advisories",
-         "shown" : "Advisory"
-      },
-      "org" : {
-         "description" : "Clubs, organisations",
-         "shown" : "Organisation"
+      "power" : {
+         "description" : "Power or energy",
+         "shown" : "Power"
       },
       "depot" : {
          "description" : "Ports, public transportation stations",
          "shown" : "Depot"
       },
-      "eyeball" : {
-         "description" : "Events and visibility",
-         "shown" : "Eyeball"
-      },
-      "civildef" : {
-         "description" : "Civil protection services",
-         "shown" : "Civil defence"
-      },
-      "power" : {
-         "shown" : "Power",
-         "description" : "Power or energy"
-      },
-      "restaurant" : {
-         "description" : "Restaurants",
-         "shown" : "Restaurant"
-      },
-      "aircraft" : {
-         "description" : "Aircraft",
-         "shown" : "Aircraft"
-      },
-      "node" : {
-         "description" : "Data network nodes",
-         "shown" : "Node"
-      },
-      "building" : {
-         "shown" : "Building",
-         "description" : "Buildings"
-      },
-      "digipeater" : {
-         "shown" : "Digipeater",
-         "description" : "APRS digipeaters"
-      },
-      "truck" : {
-         "description" : "Trucks",
-         "shown" : "Truck"
-      },
-      "car" : {
-         "description" : "Cars",
-         "shown" : "Car"
+      "hazard" : {
+         "shown" : "Hazard",
+         "description" : "Hazards"
       }
    }
 }
